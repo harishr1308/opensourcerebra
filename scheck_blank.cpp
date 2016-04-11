@@ -110,5 +110,6 @@ int main()
     }
     file.close();
   }
+  system("chmod +x MoveTNo.sh && ./MoveTNo.sh");
   return 0;
 }

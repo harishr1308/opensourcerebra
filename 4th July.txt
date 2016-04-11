@@ -1,0 +1,657 @@
+<table  onmouseover="window.status = 'Transcription reference no. T4686888168';" onmouseout="window.status = '';" border=1 cellspacing=0 cellpadding=0 width="800px" style="font-family: Arial, sans; font-size: 12px;">
+<tr><td width="200px">Client:</td><td width="600px">St. Mary's Hospital - Fertility</td></tr>
+<tr><td>tuid:</td><td><div style="cursor:hand;color:red" onClick="javascript:location.href='https://www.dictate.it/dictateit2/clients/H0009FE/documents/T4686888168/play'" onmouseover="window.status = 'Transcription reference no. T4686888168';" onmouseout="window.status = '';">T4686888168</div></td></tr>
+<tr><td>datesubmit:</td><td>2016/02/02 16:49:39.161949 GMT</td></tr>
+<tr><td>dateComplete:</td><td>2016/02/04 13:42:11.097832 GMT</td></tr>
+<tr><td>dictator:</td><td>Geet_Sarodey</td></tr>
+<tr><td>patient ID:</td><td>30026144</td></tr>
+
+<tr><td>Clinic Date:</td><td>28/01/2016</td></tr>
+<tr><td>Subject:</td><td></td></tr>
+<tr><td>Dear line:</td><td>##GP_TitleName##</td></tr>
+<tr><td>DOB:</td><td>04/10/1977</td></tr>
+<tr><td>Clinic Reference:</td><td>Fertility Clinic</td></tr>
+<tr><td>Notes to secretary:</td><td>GP Letter</td></tr>
+<tr><td>Notes to dictator:</td><td></td></tr>
+<tr><td>Recipient Address:</td><td>##GP_TitleName##
+<BR>##GP_Complete_Address_Vertical##</td></tr>
+<tr><td>Footer block:</td><td>CC:
+<BR>##Title## ##Patient_Firstname## ##Patient_Surname##
+<BR>##Patient_Complete_Address_Vertical##</td></tr>
+<tr><td>Error Flag:</td><td>0</td></tr>
+ 
+<tr><td>opTranscribe:</td><td>CTMT55</td></tr>
+<tr><td>opProof1:</td><td>CTPR7</td></tr>
+<tr><td>opProof2:</td><td> </td></tr>
+<tr><td>originalcontent:</td><td><P>##TITLE## ##PATIENT_SURNAME## attended the Fertility Clinic today.&nbsp; She has got a hysteroscopy and a polypectomy booked on 8th February with us.&nbsp; She is not now keen for laparoscopy as had a lot of dysmenorrhoea and has already discussed this with Mr Rai.&nbsp; This has been discussed with Mr Rai who had given us some time to think on the procedure. &nbsp;We discussed with our Waiting List Team and we have added on laparoscopy and treatment of endometriosis and hysteroscopy and polypectomy for her.&nbsp; She will have a preassessment today and we will see her after the procedure in the Fertility Clinic for further IVF referral.</P>
+
+<P>Thank you</P></td></tr>
+<tr><td>content:</td><td><p>##TITLE## ##PATIENT_SURNAME## attended the Fertility Clinic today.&nbsp;</p>
+
+<p>She has got a hysteroscopy and a polypectomy booked on 8th February with us.&nbsp;</p>
+
+<p>She is&nbsp;now keen for laparoscopy as she has a lot of dysmenorrhoea and has already discussed this with Mr Rai.&nbsp; This has been discussed with Mr Rai who had given us some time to think on the procedure. &nbsp;</p>
+
+<p>I&nbsp;discussed with our Waiting List Team and&nbsp;have added on laparoscopy and treatment of endometriosis&nbsp;along with&nbsp;hysteroscopy and polypectomy for her.&nbsp;</p>
+
+<p>She will have&nbsp; preassessment today and we will see her after the procedure in the Fertility Clinic for further IVF referral.</p>
+
+<p>Thank you</p></td></tr></table><BR><table  onmouseover="window.status = 'Transcription reference no. T8833162509';" onmouseout="window.status = '';" border=1 cellspacing=0 cellpadding=0 width="800px" style="font-family: Arial, sans; font-size: 12px;">
+<tr><td width="200px">Client:</td><td width="600px">Charing Cross Hospital - Cancer Services</td></tr>
+<tr><td>tuid:</td><td><div style="cursor:hand;color:red" onClick="javascript:location.href='https://www.dictate.it/dictateit2/clients/H0008CAN/documents/T8833162509/play'" onmouseover="window.status = 'Transcription reference no. T8833162509';" onmouseout="window.status = '';">T8833162509</div></td></tr>
+<tr><td>datesubmit:</td><td>2016/02/02 19:35:8.694142 GMT</td></tr>
+<tr><td>dateComplete:</td><td>2016/02/04 14:15:54.748855 GMT</td></tr>
+<tr><td>dictator:</td><td>Amit_Samani</td></tr>
+<tr><td>patient ID:</td><td>CX045710</td></tr>
+
+<tr><td>Clinic Date:</td><td>02/02/2016</td></tr>
+<tr><td>Subject:</td><td></td></tr>
+<tr><td>Dear line:</td><td>Respiratory Physicians</td></tr>
+<tr><td>DOB:</td><td>04/07/1929</td></tr>
+<tr><td>Clinic Reference:</td><td></td></tr>
+<tr><td>Notes to secretary:</td><td>Non-GP Letter
+<BR>Please use the diagnostic header that Dr Sarwar used on his last letter and please can we send this letter to the Respiratory Physicians at Charing Cross Hospital. Please copy the last clinic letter too. </td></tr>
+<tr><td>Notes to dictator:</td><td></td></tr>
+<tr><td>Recipient Address:</td><td>Respiratory Physicians/Dr Elizabeth Frances Bowen 
+<BR>Consultant Respiratory Physician 
+<BR>Charing Cross Hospital</td></tr>
+<tr><td>Footer block:</td><td>CC:
+<BR>##Title## ##Patient_Firstname## ##Patient_Surname##
+<BR>##Patient_Complete_Address_Vertical##</td></tr>
+<tr><td>Error Flag:</td><td>0</td></tr>
+ 
+<tr><td>opTranscribe:</td><td>CTMT85</td></tr>
+<tr><td>opProof1:</td><td>CTPR7</td></tr>
+<tr><td>opProof2:</td><td> </td></tr>
+<tr><td>originalcontent:</td><td><P>##TITLE## ##PATIENT_SURNAME## is&nbsp;a patient of Dr Sarwar.&nbsp; As detailed in the diagnostic header above he has a diagnosis of metastatic renal cell carcinoma with adrenal metastases and lung mets.&nbsp; He is relatively asymptomatic from his RCC.&nbsp; As part of our follow-up protocol we performed regular CT scans and last July, ##TITLE## ##PATIENT_SURNAME## was found to have bilateral pulmonary nodules with an adrenal lesion.&nbsp; This has been followed up with serial CT scans and given that he has remained relatively asymptomatic in terms of constitutional symptoms such as absence of weight loss and absence of significant fatigue, we have held off starting oral TKI therapy for the moment.&nbsp; He is&nbsp;however due another CT scan in a month's time at which point we may consider starting therapy should his disease has progressed rapidly.</P>
+
+<P>Over the last&nbsp;three months, however, he has been troubled by a persistent cough.&nbsp; This seems to be relatively incessant&nbsp;and has been accompanied by progressive shortness of breath.&nbsp; He was previously able to walk unlimited distance on the flat at his own pace (around six months ago), however now he is short of breath after mobilising around 10 to 20 yards.&nbsp; His CT scans most recently have shown extensive interstitial change and the aetiology of this is uncertain.&nbsp; The scans were reviewed at our recent MDT and a referral to the Respiratory Physicians was suggested.</P>
+
+<P>On examination, he was actually comfortable at rest and was not tachypnoeic.&nbsp; His chest was relatively clear except for some mild expiratory wheeze and his saturations at rest were normal, although we did not look for desaturation after exercise.</P>
+
+<P>We would be grateful if you could assess him from the point of view of the interstitial line disease as we do not feel the burden of metastatic disease within the lung is enough to explain his intractable cough or increasing shortness of breath.&nbsp; We would be very grateful if you could&nbsp;provide an opinion as to the aetiology of the interstitial changes and whether you think they are the predominant cause of his symptoms and therefore whether you could offer any therapy that may help in this regard.&nbsp; Thank you very much for any help regarding this matter.</P></td></tr>
+<tr><td>content:</td><td><p>Non-GP Letter<br />Please use the diagnostic header that Dr Sarwar used on his last letter and please can we send this letter to the Respiratory Physicians at Charing Cross Hospital. Please copy the last clinic letter too.</p>
+
+
+<p>##TITLE## ##PATIENT_SURNAME## is&nbsp;a patient of Dr Sarwar.&nbsp; As detailed in the diagnostic header above he has a diagnosis of metastatic renal cell carcinoma with adrenal metastases and lung mets.&nbsp; He is relatively asymptomatic from his RCC.&nbsp; As part of our follow-up protocol we performed regular CT scans and last July, ##TITLE## ##PATIENT_SURNAME## was found to have bilateral pulmonary nodules with an adrenal lesion.&nbsp; This has been followed up with serial CT scans and given that he has remained relatively asymptomatic in terms of constitutional symptoms such as absence of weight loss and absence of significant fatigue, we have held off starting oral TKI therapy for the moment.&nbsp; He is&nbsp;however due another CT scan in a month's time at which point we may consider starting therapy should his disease have progressed rapidly.</p>
+
+<p>Over the last&nbsp;three months, however, he has been troubled by a persistent cough.&nbsp; This seems to be relatively incessant&nbsp;and has been accompanied by progressive shortness of breath.&nbsp; He was previously able to walk unlimited distance on the flat at his own pace (around six months ago), however now he is short of breath after mobilising around 10 to 20 yards.&nbsp; His CT scans most recently have shown extensive interstitial change and the aetiology of this is uncertain.&nbsp; The scans were reviewed at our recent MDT and a referral to the Respiratory Physicians was suggested.</p>
+
+<p>On examination, he was actually comfortable at rest and was not tachypnoeic.&nbsp; His chest was relatively clear except for some mild expiratory wheeze and his saturations at rest were normal, although we did not look for desaturation after exercise.</p>
+
+<p>We would be grateful if you could assess him from the point of view of the interstitial disease as we do not feel the burden of metastatic disease within the lung is enough to explain his intractable cough or increasing shortness of breath.&nbsp; We would be very grateful if you could&nbsp;provide an opinion as to the aetiology of the interstitial changes and whether you think they are the predominant cause of his symptoms and therefore whether you could offer any therapy that may help in this regard.&nbsp; Thank you very much for any help.</p></td></tr></table><BR><table  onmouseover="window.status = 'Transcription reference no. T8123201849';" onmouseout="window.status = '';" border=1 cellspacing=0 cellpadding=0 width="800px" style="font-family: Arial, sans; font-size: 12px;">
+<tr><td width="200px">Client:</td><td width="600px">St. Mary's Hospital Hepatology</td></tr>
+<tr><td>tuid:</td><td><div style="cursor:hand;color:red" onClick="javascript:location.href='https://www.dictate.it/dictateit2/clients/H0009HEP/documents/T8123201849/play'" onmouseover="window.status = 'Transcription reference no. T8123201849';" onmouseout="window.status = '';">T8123201849</div></td></tr>
+<tr><td>datesubmit:</td><td>2016/02/02 16:24:31.471121 GMT</td></tr>
+<tr><td>dateComplete:</td><td>2016/02/04 15:15:31.923402 GMT</td></tr>
+<tr><td>dictator:</td><td>Belinda_Smith</td></tr>
+<tr><td>patient ID:</td><td>M272279H</td></tr>
+
+<tr><td>Clinic Date:</td><td>02/02/2016</td></tr>
+<tr><td>Subject:</td><td></td></tr>
+<tr><td>Dear line:</td><td>##GP_TitleName##</td></tr>
+<tr><td>DOB:</td><td>29/04/1982</td></tr>
+<tr><td>Clinic Reference:</td><td></td></tr>
+<tr><td>Notes to secretary:</td><td>GP Letter
+<BR>Please check Footer block</td></tr>
+<tr><td>Notes to dictator:</td><td></td></tr>
+<tr><td>Recipient Address:</td><td>##GP_TitleName##
+<BR>##Gp_Complete_Address_Vertical##</td></tr>
+<tr><td>Footer block:</td><td>CC:
+<BR>##Title## ##Patient_Firstname## ##Patient_Surname##
+<BR>##Patient_Complete_Address_Vertical##
+<BR>
+<BR>Dr Anne Kinderlerer
+<BR>Consultant Rheumatologist
+<BR>St Mary's Hospital
+<BR>Praed Street
+<BR>London
+<BR>W2 1NY
+<BR>
+<BR>Dr David Werring
+<BR>Consultant Neurologist
+<BR>Queen Square Hospital
+<BR>Queen Square
+<BR>London
+<BR>WC1N 3BG
+<BR>
+<BR>Dr Marius Venter
+<BR>Stroke Specialist
+<BR>Charing Cross Hospital</td></tr>
+<tr><td>Error Flag:</td><td>0</td></tr>
+ 
+<tr><td>opTranscribe:</td><td>CTMT11</td></tr>
+<tr><td>opProof1:</td><td>CTPR7</td></tr>
+<tr><td>opProof2:</td><td> </td></tr>
+<tr><td>originalcontent:</td><td><P><STRONG>Liver Diagnosis:</STRONG>&nbsp; Hepatic adenomas, stable during recent pregnancy (baby now 11 months old)</P>
+
+<P><STRONG>Non-Liver Diagnosis:</STRONG></P>
+<P>1.&nbsp; CVA x2 in&nbsp;2015, August Charing Cross Hospital December, UCL and Queen Square Hospital </P>
+<P>2.&nbsp; HLA-B27 ?seronegative arthritis</P>
+<P>3.&nbsp; Diabetes on Metformin</P>
+
+<P><STRONG>Current Medication:</STRONG></P>
+<P>1.&nbsp; Lansoprazole</P>
+<P>2.&nbsp; Aspirin</P>
+<P>3.&nbsp; Metformin</P>
+<P>4.&nbsp; Clopidogrel</P>
+
+<P>I reviewed ##PATIENT_FIRSTNAME## today regarding her hepatic adenomas.&nbsp; Her most recent ultrasound in January 2015 which was just before she delivered her son showed no increase in size of the four adenomas largest being segment 6,&nbsp;45 mm.&nbsp; This is reassuring.&nbsp; She will now need to remain on any&nbsp;oestrogen containing contraceptive due to her recent CVAs and has no plans for further pregnancy but she is not using any contraception.&nbsp; She is not currently sexually active but this will clearly need to be addressed in the future.</P>
+
+<P>She is concerned she does not&nbsp;appear to have any follow-up regarding her CVA.&nbsp; She was due to be seen at Charing Cross Hospital after the CVA in August but this did not appear to eventuate and then was re-admitted in December to UCL and then Queen Square.&nbsp; She had some cardiac investigation there but does not have any outpatient appointment pending now.&nbsp; She continues on Clopidogrel 75mg, Lansoprazole 30mg, Aspirin 75mg, Metformin 1g bd.&nbsp; With regard to her adenoma, we will continue with annual follow-up and I will arrange her further ultrasound and write to her with&nbsp;these result.&nbsp; Given that she will not be having any further oestrogen exposure from pregnancy or contraception.&nbsp; This is likely to be helpful with regard to&nbsp;the liver.</P></td></tr>
+<tr><td>content:</td><td><p><strong>Liver Diagnosis:</strong>&nbsp; Hepatic adenomas, stable during recent pregnancy (baby now 11 months old)</p>
+
+<p><strong>Non-Liver Diagnosis:</strong></p>
+<p>1.&nbsp; CVA x2 in&nbsp;2015, August Charing Cross Hospital; December, UCL and Queen Square Hospital</p>
+<p>2.&nbsp; HLA-B27 ?seronegative arthritis</p>
+<p>3.&nbsp; Diabetes on Metformin</p>
+
+<p><strong>Current Medication:</strong></p>
+<p>1.&nbsp; Lansoprazole</p>
+<p>2.&nbsp; Aspirin</p>
+<p>3.&nbsp; Metformin</p>
+<p>4.&nbsp; Clopidogrel</p>
+
+<p>I reviewed ##PATIENT_FIRSTNAME## today regarding her hepatic adenomas.&nbsp; Her most recent ultrasound in January 2015 which was just before she delivered her son showed no increase in size of the four adenomas, largest being segment 6,&nbsp;45 mm.&nbsp; This is reassuring.&nbsp; She will now need to remain off any&nbsp;oestrogen containing contraceptive due to her recent CVAs and has no plans for further pregnancy. She is not using any contraception and &nbsp;is not currently sexually active but this will clearly need to be addressed in the future.</p>
+
+<p><strong>She is concerned she does not&nbsp;appear to have any follow-up regarding her CVAs</strong>.&nbsp; She was due to be seen at Charing Cross Hospital after the CVA in August but this did not appear to eventuate and then was re-admitted in December to UCL and then Queen Square.&nbsp; She had some cardiac investigation there but does not have any outpatient appointment pending now.&nbsp; She continues on Clopidogrel 75mg, Lansoprazole 30mg, Aspirin 75mg, Metformin 1g bd.&nbsp;</p>
+<p>She continues to have quite lot of word finding difficulties and headaches but is remaining optimistic and says her children have been very adaptable given her ill health over the last year.</p>
+
+<p>With regard to her adenomas, we will continue with annual follow-up and I will arrange her further ultrasound and write to her with&nbsp;these result.&nbsp; Given that she will not be having any further oestrogen exposure from pregnancy or contraception this is likely to be helpful with regard to&nbsp;the liver.</p>
+
+</td></tr></table><BR><table  onmouseover="window.status = 'Transcription reference no. T3099614993';" onmouseout="window.status = '';" border=1 cellspacing=0 cellpadding=0 width="800px" style="font-family: Arial, sans; font-size: 12px;">
+<tr><td width="200px">Client:</td><td width="600px">Charing Cross Hospital - Cancer Services</td></tr>
+<tr><td>tuid:</td><td><div style="cursor:hand;color:red" onClick="javascript:location.href='https://www.dictate.it/dictateit2/clients/H0008CAN/documents/T3099614993/play'" onmouseover="window.status = 'Transcription reference no. T3099614993';" onmouseout="window.status = '';">T3099614993</div></td></tr>
+<tr><td>datesubmit:</td><td>2016/02/03 09:37:59.845588 GMT</td></tr>
+<tr><td>dateComplete:</td><td>2016/02/04 14:58:11.582215 GMT</td></tr>
+<tr><td>dictator:</td><td>Manasi_Ingle</td></tr>
+<tr><td>patient ID:</td><td>CC107860</td></tr>
+
+<tr><td>Clinic Date:</td><td>01/02/2016</td></tr>
+<tr><td>Subject:</td><td></td></tr>
+<tr><td>Dear line:</td><td>Mr Pope</td></tr>
+<tr><td>DOB:</td><td>02/02/1954</td></tr>
+<tr><td>Clinic Reference:</td><td>-Falconer</td></tr>
+<tr><td>Notes to secretary:</td><td>Non-GP Letter</td></tr>
+<tr><td>Notes to dictator:</td><td></td></tr>
+<tr><td>Recipient Address:</td><td>Mr Alvan J Pope
+<BR>Consultant Urologist
+<BR>Charing Cross Hospital</td></tr>
+<tr><td>Footer block:</td><td>CC:
+<BR>##Title## ##Patient_Firstname## ##Patient_Surname##
+<BR>##Patient_Complete_Address_Vertical##
+<BR>
+<BR>##GP_TitleName##
+<BR>##Gp_Complete_Address_Vertical##</td></tr>
+<tr><td>Error Flag:</td><td>0</td></tr>
+ 
+<tr><td>opTranscribe:</td><td>CTMT85</td></tr>
+<tr><td>opProof1:</td><td>CTPR7</td></tr>
+<tr><td>opProof2:</td><td> </td></tr>
+<tr><td>originalcontent:</td><td><P><STRONG>Diagnosis:</STRONG></P>
+<P>T2 N0 M0, Gleason score 4+3, adenocarcinoma of the prostate</P>
+
+<P><STRONG>Planned Treatment:</STRONG></P>
+<P>Six months worth of hormone therapy 74 Gy in 37 fractions of external beam radiotherapy.</P>
+
+<P>Thank you very much for referring this gentleman to our clinic for discussion of external beam radiotherapy for his newly diagnosed prostate cancer.&nbsp; He is a 62 year old gentleman who unfortunately had several comorbidities, which made him unsuitable for prostatectomy.&nbsp; In particular, he has spinal stenosis, which causes limited mobility and a significant pain on sitting.&nbsp; For this reason, the poor gentleman had to stand throughout our clinic appointment in order to be comfortable.&nbsp; He&nbsp;is also a known COPD with a smoking history of 50 years and he smoked since his 13.&nbsp; I understand he is on numerous inhalers for this.&nbsp; He has also been diagnosed with large DVTs within the legs and subtle embolus within the lungs as well.&nbsp; This has all been recently within the last year.&nbsp; He currently takes Warfarin for this.&nbsp; Given this reason I understand that his biopsy was delayed as the DVTs has just been diagnosed and his anticoagulation has just been started.&nbsp; He has a performance status 2 gentleman who requires some help from his wife with regard to washing and dressing.&nbsp; He takes numerous medications of which majority of them are analgesia.&nbsp; Unfortunately, he has not got a&nbsp;full list with him today, but I have asked him to bring it before he starts radiotherapy.&nbsp; He is not known to be allergic to anything.</P>
+
+<P>Today, I have spoken to ##TITLE## ##PATIENT_SURNAME## about starting external beam radiotherapy within the next six weeks.&nbsp; He has already been started on tablets by yourself and he is due to have his first hormone injection on Thursday, 4th February 2016.&nbsp; I understand he has been given three one monthly injections.&nbsp; Having discussed with Dr Falconer today we would like him to have four one monthly injections in total while he remains on treatment.</P>
+
+<P>He has consented for external beam radiotherapy today.&nbsp; I have gone through the procedure and the side effects such as diarrhoea, dysuria, frequency, radiation proctitis, lethargy, pain and skin erythema.&nbsp; He has consented to this today and we will&nbsp;endeavour to get him scanned and start just after Easter.&nbsp; We will write to you once he completes his treatment.&nbsp; Once he has completed it we will book him to have&nbsp;a post treatment.</P>
+
+<P>Kind regards</P></td></tr>
+<tr><td>content:</td><td><p><strong>Diagnosis:</strong></p>
+<p>T2 N0 M0, Gleason score 4+3, adenocarcinoma of the prostate</p>
+
+<p><strong>Planned Treatment:</strong></p>
+<p>Six months of hormone therapy and&nbsp;74 Gy in 37 fractions of external beam radiotherapy.</p>
+
+<p>Thank you very much for referring this gentleman to our clinic for discussion of external beam radiotherapy for his newly diagnosed prostate cancer.&nbsp; He is a 62 year old gentleman who unfortunately had several comorbidities, which made him unsuitable for prostatectomy.&nbsp; In particular, he has spinal stenosis, which causes limited mobility and a significant pain on sitting.&nbsp; For this reason, the poor gentleman had to stand throughout our clinic appointment in order to be comfortable.&nbsp; He&nbsp;is also a known COPD with a smoking history of 50 years and he smoked since&nbsp;the age of&nbsp;13.&nbsp; I understand that he is on numerous inhalers for this.&nbsp; He has also been diagnosed with large DVTs within the legs and&nbsp;saddle embolus within the lungs as well.&nbsp; This has all been recently within the last year.&nbsp; He currently takes Warfarin for this.&nbsp; Given this reason I understand that his biopsy was delayed as the DVTs has just been diagnosed and his anticoagulation has just been started.&nbsp; He has a performance status 2 gentleman who requires some help from his wife with regard to washing and dressing.&nbsp; He takes numerous medications of which majority of them are analgesia.&nbsp; Unfortunately, he has not got a&nbsp;full list with him today, but I have asked him to bring it before he starts radiotherapy.&nbsp; He is not known to be allergic to anything.</p>
+
+<p>Today, I have spoken to ##TITLE## ##PATIENT_SURNAME## about starting external beam radiotherapy within the next six weeks.&nbsp; He has already been started on tablets by yourself and he is due to have his first hormone injection on Thursday, 4th February 2016.&nbsp; I understand he has been given three one monthly injections.&nbsp; Having discussed with Dr Falconer today we would like him to have four one monthly injections in total while he remains on treatment.</p>
+
+<p>He has consented for external beam radiotherapy today.&nbsp; I have gone through the procedure and the side effects such as diarrhoea, dysuria, frequency, radiation proctitis, lethargy, pain, erectile dysfunction&nbsp;and skin erythema.&nbsp; He has consented to this today and we will&nbsp;endeavour to get him scanned and start just after Easter.&nbsp; We will write to you once he completes his treatment.&nbsp; Once he has completed it we will book him to have&nbsp;a post treatment follow up.</p>
+
+<p>Kind regards</p></td></tr></table><BR><table  onmouseover="window.status = 'Transcription reference no. T8676135160';" onmouseout="window.status = '';" border=1 cellspacing=0 cellpadding=0 width="800px" style="font-family: Arial, sans; font-size: 12px;">
+<tr><td width="200px">Client:</td><td width="600px">Charing Cross Hospital - Gastroenterology</td></tr>
+<tr><td>tuid:</td><td><div style="cursor:hand;color:red" onClick="javascript:location.href='https://www.dictate.it/dictateit2/clients/H0008GA/documents/T8676135160/play'" onmouseover="window.status = 'Transcription reference no. T8676135160';" onmouseout="window.status = '';">T8676135160</div></td></tr>
+<tr><td>datesubmit:</td><td>2016/02/02 16:34:55.499353 GMT</td></tr>
+<tr><td>dateComplete:</td><td>2016/02/04 15:33:58.496031 GMT</td></tr>
+<tr><td>dictator:</td><td>Daniel_Abeles</td></tr>
+<tr><td>patient ID:</td><td>5117989B</td></tr>
+
+<tr><td>Clinic Date:</td><td>02/02/2016</td></tr>
+<tr><td>Subject:</td><td></td></tr>
+<tr><td>Dear line:</td><td>##GP_TitleName##</td></tr>
+<tr><td>DOB:</td><td>22/03/1976</td></tr>
+<tr><td>Clinic Reference:</td><td></td></tr>
+<tr><td>Notes to secretary:</td><td>GP Letter
+<BR>Please check the footer block.</td></tr>
+<tr><td>Notes to dictator:</td><td></td></tr>
+<tr><td>Recipient Address:</td><td>##GP_TitleName##
+<BR>##Gp_Complete_Address_Vertical##</td></tr>
+<tr><td>Footer block:</td><td>CC:
+<BR>##Title## ##Patient_Firstname## 
+<BR>##Patient_Surname##
+<BR>##Patient_Complete_Address_Vertical##
+<BR>
+<BR>Professor Matthew Pickering Consultant Rheumatologist Hammersmith Hospital 
+<BR></td></tr>
+<tr><td>Error Flag:</td><td>0</td></tr>
+ 
+<tr><td>opTranscribe:</td><td>CTMT92</td></tr>
+<tr><td>opProof1:</td><td>CTPR7</td></tr>
+<tr><td>opProof2:</td><td> </td></tr>
+<tr><td>originalcontent:</td><td><P><STRONG>Diagnosis:</STRONG></P>
+<P>1.&nbsp; Abnormal liver function tests possible fatty liver disease, possible autoimmune hepatitis, ALT 60 to&nbsp;150, immunoglobulin is normal, anti-smooth muscle antibody positive, FibroScan July 2015 stiffness 3.7 kPa, CAP score 303, not had biopsy</P>
+<P>2.&nbsp; Recurrent pericarditis ?amyloid, was under Professor Pickering&nbsp;and also at the Royal Free Hospital however has been discharged from both as they thought follow-up was ongoing at each others institution</P>
+
+<P><STRONG>Current Medication:</STRONG></P>
+<P>1.&nbsp; 1mg Colchicine bd</P>
+<P>2.&nbsp; 15mg Prednisolone once a day</P>
+
+<P>I reviewed this gentleman in the Hepatology Clinic today.&nbsp; Unfortunately it seems like there has been little mixed communication from the Rheumatologist at the Royal Free Hospital and here and this gentleman has been discharged from both of them although he is continuing on Colchicine and Prednisolone at 15mg a day.&nbsp; He has run out of his medication and I have given him a 30 day supply and I&nbsp;would be grateful if you could continue this on for him but he needs urgent re-referral to Rheumatology here for ongoing review.&nbsp; I will also e-mail the Rheumatologists so that they know about things sooner but I would be grateful if you could agree that this letter would be a referral letter for the Rheumatologist.</P>
+
+<P>From a liver point of view it is unclear whether he has simple steatohepatitis&nbsp;and this is likely to be non-alcoholic fatty liver disease although he does drink about two bottle of wine a week and I have&nbsp;urged him to cut down to one bottle a week.&nbsp; His weight is 74.9 and his height is 163 giving a BMI of _____.&nbsp; He has diabetes which I think is diet controlled which will also contribute to steatohepatitis.&nbsp; I have explained that the only way to discern between the two would be to have a liver biopsy and if his liver function tests is still abnormal I&nbsp;will get&nbsp;on and&nbsp;organise that prior to his next appointment.&nbsp; He is going away in a couple of weeks for a holiday.</P>
+
+<P>I have therefore given him a repeat prescription of his Colchicine and Prednisolone&nbsp;today and repeated his blood test.&nbsp; I will coordinate with the Rheumatologist for urgent review.&nbsp; We will see him again in clinic in three months' time either before or after liver biopsy.</P></td></tr>
+<tr><td>content:</td><td><p><strong></strong>&nbsp;</p>
+<p><strong>Diagnosis:</strong></p>
+<p>1.&nbsp; Abnormal liver function tests</p>
+<ul>
+<li>Possible fatty liver disease, possible autoimmune hepatitis,</li>
+<li>ALT 60 to&nbsp;150,</li>
+<li>Immunoglobulin is normal, anti-smooth muscle antibody positive,</li>
+<li>FibroScan July 2015 stiffness 3.7 kPa, CAP score 303,</li>
+<li>Not had biopsy</li>
+</ul>
+<p>2.&nbsp; Recurrent pericarditis ?amyloid?, was under Professor Pickering&nbsp;and also at the Royal Free Hospital however has been discharged from both as they thought follow-up was ongoing at each others institution</p>
+
+<p><strong>Current Medication:</strong></p>
+<p>1.&nbsp; 1mg Colchicine bd</p>
+<p>2.&nbsp; 15mg Prednisolone once a day</p>
+
+<p>I reviewed this gentleman in the Hepatology Clinic today.&nbsp; Unfortunately it seems like&nbsp;he has&nbsp;been discharged&nbsp;from both the Rheumatologists at the Royal Free Hospital and here, although he is continuing on Colchicine and Prednisolone at 15mg a day.&nbsp; He has run out of his medication and I have given him a 30 day supply and I&nbsp;would be grateful if you could continue this on for him but he needs urgent re-referral to Rheumatology for ongoing review.&nbsp; I will also e-mail the Rheumatologists so that they know about things sooner.</p>
+
+<p>From a liver point of view it is unclear whether he has simple steatohepatitis&nbsp;that is likely to be non-alcoholic fatty liver disease although he does drink about two bottle of wine a week. I have&nbsp;urged him to cut down to one bottle a week.&nbsp; His weight is 74.9 and his height is 163 giving a BMI of 28.&nbsp; He has diabetes which I think is diet controlled which&nbsp;may also contribute to steatohepatitis.&nbsp; I have explained that the only way to discern between the two would be to have a liver biopsy and if his liver function tests&nbsp;are still abnormal I&nbsp;will get&nbsp;on and&nbsp;organise that prior to his next appointment.&nbsp; He is going away in a couple of weeks for a holiday.</p>
+
+<p>I have therefore given him a repeat prescription of his Colchicine and Prednisolone&nbsp;today and repeated his blood test.&nbsp; I will coordinate with the Rheumatologist for urgent review.&nbsp; We will see him again in clinic in three months' time either before or after liver biopsy.</p>
+
+<p>Addendum: ALT is a littel better at 69, ANA neg, Immunoglobulins normal. I thinks there is no ruch to biopsy given the normal fibroscan liver stiffness so we will review him in 3 months as palnned.</p></td></tr></table><BR><table  onmouseover="window.status = 'Transcription reference no. T9112451423';" onmouseout="window.status = '';" border=1 cellspacing=0 cellpadding=0 width="800px" style="font-family: Arial, sans; font-size: 12px;">
+<tr><td width="200px">Client:</td><td width="600px">Charing Cross Hospital - Gastroenterology</td></tr>
+<tr><td>tuid:</td><td><div style="cursor:hand;color:red" onClick="javascript:location.href='https://www.dictate.it/dictateit2/clients/H0008GA/documents/T9112451423/play'" onmouseover="window.status = 'Transcription reference no. T9112451423';" onmouseout="window.status = '';">T9112451423</div></td></tr>
+<tr><td>datesubmit:</td><td>2016/02/02 16:39:46.912106 GMT</td></tr>
+<tr><td>dateComplete:</td><td>2016/02/04 14:34:2.185046 GMT</td></tr>
+<tr><td>dictator:</td><td>Ben_Glover</td></tr>
+<tr><td>patient ID:</td><td>30387394</td></tr>
+
+<tr><td>Clinic Date:</td><td>02/02/2016</td></tr>
+<tr><td>Subject:</td><td></td></tr>
+<tr><td>Dear line:</td><td>##GP_TitleName##</td></tr>
+<tr><td>DOB:</td><td>10/08/1935</td></tr>
+<tr><td>Clinic Reference:</td><td></td></tr>
+<tr><td>Notes to secretary:</td><td>GP Letter
+<BR>Please verify blank at timestamp indicated.</td></tr>
+<tr><td>Notes to dictator:</td><td></td></tr>
+<tr><td>Recipient Address:</td><td>##GP_TitleName##
+<BR>##Gp_Complete_Address_Vertical##</td></tr>
+<tr><td>Footer block:</td><td>CC:
+<BR>Daughter of
+<BR>##Title## ##Patient_Firstname## ##Patient_Surname##
+<BR>##Patient_Complete_Address_Vertical##</td></tr>
+<tr><td>Error Flag:</td><td>0</td></tr>
+ 
+<tr><td>opTranscribe:</td><td>CTMT12</td></tr>
+<tr><td>opProof1:</td><td>CTPR7</td></tr>
+<tr><td>opProof2:</td><td> </td></tr>
+<tr><td>originalcontent:</td><td><P><STRONG>Presenting Complaint:</STRONG>&nbsp; Persistent vomiting and epigastric discomfort</P>
+
+<P>I saw this pleasant 81 year old lady in clinic today in the company of her daughter.&nbsp; Unfortunately there were no previous notes or correspondence available but we had a long discussion about her symptoms of intermittent profuse vomiting and ongoing complaint of epigastric pain.&nbsp; ##TITLE## ##PATIENT_SURNAME##&nbsp;as you know suffers from Alzheimer's dementia and was unable to give me much history directly but her daughter was able to fill in the rest.&nbsp; Her daughter reports that ##TITLE## ##PATIENT_SURNAME##&nbsp;has been occasionally and quite out of the blue vomiting large amounts of a watery fluid with no blood or other particular stomach contents.&nbsp; This seems largely independent of recent meals and no other precipitating causes have been identified.&nbsp; ##TITLE## ##PATIENT_SURNAME##&nbsp;reports that she feels very well in herself and that her appetite is normal and she does not have any particular specific complaints.&nbsp; Her daughter was concerned that her weight has decreased somewhat and her clothes and rings are becoming loose and on&nbsp;examination certainly her wedding ring was slightly loose.&nbsp;&nbsp;In clinic today, she weighs 63.6 kg, but I am afraid I do not have any previous to compare this to.&nbsp; Her past medical history includes Alzheimer's dementia and hypertension as well as a previous episodes of likely pyloric stenosis in 2010.&nbsp; The only recored I have&nbsp;at hand is of an OGD&nbsp;performed in 2010&nbsp;for dysphagia which reported pyloric stenosis and ulceration with a benign appearance.&nbsp; Unfortunately I do not have the results of follow up CTs or the results of the biopsies undertaken.&nbsp; Medication history includes Omeprazole 20mg once a day and an oral agent for her cognitive function which may well be Donepezil but her daughter is unable to remember the name of it at the moment.&nbsp; She has no drug allergies but in particular her daughter is concerned that she is very poorly adherent to her medication as she forgets to take the tablets and the carers are of course allowed to insist that she takes them.</P>
+
+<P>She lives alone in a ground floor flat and has bd carers who help her mainly with&nbsp;prompting of activities of daily living and with things like shopping.&nbsp; She is a&nbsp;lifelong smoker&nbsp;and drinks no alcohol and is reasonably physically robust and good on her feet.</P>
+
+<P>On examination, she was well in herself with no peripheral signs of chronic disease, no lymphadenopathy and abdomen which was soft and non-tender but with some epigastric fullness and tenderness.</P>
+
+<P>Following discussion with Dr Ayaru in clinic today to investigate the ongoing occasional vomiting in this lady with previous pyloric stenosis&nbsp;and weight loss, I have arranged ____<STRONG>(03:57)</STRONG> OGD to reassess the ____<STRONG>(04:01)</STRONG> and a CT of the abdomen and pelvis to investigate the suspicion of epigastric mass.&nbsp; She is having some baseline bloods taken today and I will write to you with the results of these.&nbsp; We shall see her in clinic when the results of the OGD and the CT are completed and if the likely diagnosis is still of inflammatory stenosis then to consider increasing the PPI, although with the awareness that compliance may be an issue.&nbsp; Of note she may well be moving to live nearer her daughter and be more closely supervised.</P></td></tr>
+<tr><td>content:</td><td><p><strong>Presenting Complaint:</strong>&nbsp; Persistent vomiting and epigastric discomfort</p>
+
+<p>I saw this pleasant 81 year old lady in clinic today in the company of her daughter.&nbsp; Unfortunately there were no previous notes or correspondence available but we had a long discussion about her symptoms of intermittent profuse vomiting and ongoing complaint of epigastric pain.&nbsp; ##TITLE## ##PATIENT_SURNAME##&nbsp;as you know suffers from Alzheimer's dementia and was unable to give me much history directly but her daughter was able to fill in the rest.&nbsp; Her daughter reports that ##TITLE## ##PATIENT_SURNAME##&nbsp;has been occasionally and quite out of the blue vomiting large amounts of a watery fluid with no blood or other particular stomach contents.&nbsp; This seems largely independent of recent meals and no other precipitating causes have been identified.&nbsp; ##TITLE## ##PATIENT_SURNAME##&nbsp;reports that she feels very well in herself and that her appetite is normal and she does not have any particular specific complaints.&nbsp; Her daughter was concerned that her weight has decreased somewhat and her clothes and rings are becoming loose and on&nbsp;examination certainly her wedding ring was slightly loose.&nbsp;&nbsp;In clinic today, she weighs 63.6 kg, but I am afraid I do not have any previous to compare this to.&nbsp; Her past medical history includes Alzheimer's dementia and hypertension as well as a previous episodes of likely pyloric stenosis in 2010.&nbsp; The only recored I have&nbsp;at hand is of an OGD&nbsp;performed in 2010&nbsp;for dysphagia which reported pyloric stenosis and ulceration with a benign appearance.&nbsp; Unfortunately I do not have the results of follow up CTs or the results of the biopsies undertaken.&nbsp; Medication history includes Omeprazole 20mg once a day and an oral agent for her cognitive function which may well be Donepezil but her daughter is unable to remember the name of it at the moment.&nbsp; She has no drug allergies but in particular her daughter is concerned that she is very poorly adherent to her medication as she forgets to take the tablets and the carers are of course allowed to insist that she takes them.</p>
+
+<p>She lives alone in a ground floor flat and has bd carers who help her mainly with&nbsp;prompting of activities of daily living and with things like shopping.&nbsp; She is a&nbsp;lifelong smoker&nbsp;and drinks no alcohol and is reasonably physically robust and good on her feet.</p>
+
+<p>On examination, she was well in herself with no peripheral signs of chronic disease, no lymphadenopathy and abdomen which was soft and non-tender but with some epigastric fullness and tenderness.</p>
+
+<p>Following discussion with Dr Ayaru in clinic today to investigate the ongoing occasional vomiting in this lady with previous pyloric stenosis&nbsp;and weight loss, I have arranged&nbsp;for an&nbsp;OGD to reassess the pylorus and a CT of the abdomen and pelvis to investigate the suspicion of epigastric mass.&nbsp; She is having some baseline bloods taken today and I will write to you with the results of these.&nbsp; We shall see her in clinic when the results of the OGD and the CT are completed and if the likely diagnosis is still of inflammatory stenosis then to consider increasing the PPI, although with the awareness that compliance may be an issue.&nbsp; Of note she may well be moving to live nearer her daughter and be more closely supervised.</p>
+
+<p><strong>Addendum: </strong>I have since seen her blood tests, which show a minimally low Hb of 112 (normal 114).</p></td></tr></table><BR><table  onmouseover="window.status = 'Transcription reference no. T7834504639';" onmouseout="window.status = '';" border=1 cellspacing=0 cellpadding=0 width="800px" style="font-family: Arial, sans; font-size: 12px;">
+<tr><td width="200px">Client:</td><td width="600px">Charing Cross Hospital - Cancer Services</td></tr>
+<tr><td>tuid:</td><td><div style="cursor:hand;color:red" onClick="javascript:location.href='https://www.dictate.it/dictateit2/clients/H0008CAN/documents/T7834504639/play'" onmouseover="window.status = 'Transcription reference no. T7834504639';" onmouseout="window.status = '';">T7834504639</div></td></tr>
+<tr><td>datesubmit:</td><td>2016/02/03 09:37:59.718736 GMT</td></tr>
+<tr><td>dateComplete:</td><td>2016/02/04 14:40:32.095538 GMT</td></tr>
+<tr><td>dictator:</td><td>Manasi_Ingle</td></tr>
+<tr><td>patient ID:</td><td>CC511710</td></tr>
+
+<tr><td>Clinic Date:</td><td>01/02/2016</td></tr>
+<tr><td>Subject:</td><td></td></tr>
+<tr><td>Dear line:</td><td>##GP_TitleName##</td></tr>
+<tr><td>DOB:</td><td>01/01/1946</td></tr>
+<tr><td>Clinic Reference:</td><td>-Falconer</td></tr>
+<tr><td>Notes to secretary:</td><td>GP Letter</td></tr>
+<tr><td>Notes to dictator:</td><td></td></tr>
+<tr><td>Recipient Address:</td><td>##GP_TitleName##
+<BR>##Gp_Complete_Address_Vertical##</td></tr>
+<tr><td>Footer block:</td><td>CC:
+<BR>##Title## ##Patient_Firstname## ##Patient_Surname##
+<BR>##Patient_Complete_Address_Vertical##</td></tr>
+<tr><td>Error Flag:</td><td>0</td></tr>
+ 
+<tr><td>opTranscribe:</td><td>CTMT85</td></tr>
+<tr><td>opProof1:</td><td>CTPR7</td></tr>
+<tr><td>opProof2:</td><td> </td></tr>
+<tr><td>originalcontent:</td><td><P><STRONG>Diagnosis:</STRONG></P>
+<P>T1 N0 M0 adenocarcinoma of the prostate, Gleason 4+3, PSA 56</P>
+
+<P><STRONG>Treatment:</STRONG></P>
+<P>1.&nbsp; Androgen deprivation alone since 2012.</P>
+<P>2.&nbsp; Declined radiotherapy.</P>
+
+<P>I saw ##TITLE## ##PATIENT_SURNAME## in clinic today.&nbsp; He remains well in himself and continues on androgen deprivation therapy.&nbsp; His PSA from 21st December 2015 remains stable at 0.58.&nbsp; He is tolerating this very well and I have had a further discussion with him today about radiotherapy, which he is still not interested in.&nbsp; We would follow him up six monthly with PSA and to that end I will refer him to our OAFU Clinic so this will allow an easier follow-up pathway.</P>
+
+<P>Kind regards</P></td></tr>
+<tr><td>content:</td><td><p><strong>Diagnosis:</strong></p>
+<p>T1 N0 M0 adenocarcinoma of the prostate, Gleason 4+3, PSA 56</p>
+
+<p><strong>Treatment:</strong></p>
+<p>1.&nbsp; Androgen deprivation alone since 2012.</p>
+<p>2.&nbsp; Declined radiotherapy.</p>
+
+<p>I saw ##TITLE## ##PATIENT_SURNAME## in clinic today.&nbsp; He remains well in himself and continues on androgen deprivation therapy.&nbsp; His PSA from 21st December 2015 remains stable at 0.58.&nbsp; He is tolerating this very well and I have had a further discussion with him today about radiotherapy, which he is still not interested in.&nbsp; We would follow him up six monthly with PSA and to that end I will refer him to our OAFU Clinic so this will allow an easier follow-up pathway.</p>
+
+<p>Kind regards</p></td></tr></table><BR><table  onmouseover="window.status = 'Transcription reference no. T6570693725';" onmouseout="window.status = '';" border=1 cellspacing=0 cellpadding=0 width="800px" style="font-family: Arial, sans; font-size: 12px;">
+<tr><td width="200px">Client:</td><td width="600px">Charing Cross Hospital - Cancer Services</td></tr>
+<tr><td>tuid:</td><td><div style="cursor:hand;color:red" onClick="javascript:location.href='https://www.dictate.it/dictateit2/clients/H0008CAN/documents/T6570693725/play'" onmouseover="window.status = 'Transcription reference no. T6570693725';" onmouseout="window.status = '';">T6570693725</div></td></tr>
+<tr><td>datesubmit:</td><td>2016/02/03 11:50:8.498806 GMT</td></tr>
+<tr><td>dateComplete:</td><td>2016/02/04 15:55:3.480450 GMT</td></tr>
+<tr><td>dictator:</td><td>Nicol_George</td></tr>
+<tr><td>patient ID:</td><td>CX939201</td></tr>
+
+<tr><td>Clinic Date:</td><td>01/02/2016</td></tr>
+<tr><td>Subject:</td><td></td></tr>
+<tr><td>Dear line:</td><td>##GP_TitleName##</td></tr>
+<tr><td>DOB:</td><td>23/05/1949</td></tr>
+<tr><td>Clinic Reference:</td><td></td></tr>
+<tr><td>Notes to secretary:</td><td>GP Letter
+<BR>Diagnosis and treatment as previous.
+<BR>Original letter: T6570693725
+<BR>Audio split; L1 starts at 00:00</td></tr>
+<tr><td>Notes to dictator:</td><td>ALERT!  FILES NOT SPLIT IN ACCORDANCE WITH DICTATE.IT RECOMMENDATIONS.  BY USING THE EOL BUTTON ON BACK OF DICTAPHONE TO SPLIT AUDIO FILES YOU WILL ENSURE ONE FILE FOR EACH LETTER AND HELP MINIMISE RISK OF ERROR.</td></tr>
+<tr><td>Recipient Address:</td><td>##GP_TitleName##
+<BR>##Gp_Complete_Address_Vertical##</td></tr>
+<tr><td>Footer block:</td><td>CC:
+<BR>##Title## ##Patient_Firstname## ##Patient_Surname##
+<BR>##Patient_Complete_Address_Vertical##</td></tr>
+<tr><td>Error Flag:</td><td>0</td></tr>
+ 
+<tr><td>opTranscribe:</td><td>CTMT26</td></tr>
+<tr><td>opProof1:</td><td>CTPR7</td></tr>
+<tr><td>opProof2:</td><td> </td></tr>
+<tr><td>originalcontent:</td><td><P>##TITLE## ##PATIENT_SURNAME## has started his FOLFIRI chemotherapy for his metastatic colorectal cancer.&nbsp; He tolerated the first two cycles reasonably well however did experience diarrhoea from his stoma bag which leaked following&nbsp;a second cycle.&nbsp; We did discuss having some prophylactic Loperamide after he has had this cycle in order to prevent diarrhoea occurring however he was somewhat reticent about this as he is concerned about his reduced outflow from&nbsp;the stoma.&nbsp; He has also experienced acneiform rash and after his chemotherapy which was seen by our 6-East Doctors and he has been prescribed some antihistamines and some topical cream.</P>
+<P><BR>The main purpose&nbsp;of his visit to clinic today was to consent him for Cetuximab as his K-RAS molecular study has been shown to be wild type.&nbsp; He has been given written information about this and signed a consent form today.</P>
+<P><BR>In view of him already having a rash on his back&nbsp;I have a low threshold for&nbsp;adding in Doxycycline to help prevent further infection and rash deterioration.</P>
+<P><BR>He will be next seen again in the Nurse-Led Clinic.&nbsp; We will be keeping an eye on his tumour markers as they have risen to 61 after his first two cycles.&nbsp; If they continue to rise despite the addition of Cetuximab then we will scan him after four cycles however if they stabilise and reduce then we will scan him after eight cycles.&nbsp; He is aware of this plan and he will be reviewed in the Nurse-Led Clinic for now.</P></td></tr>
+<tr><td>content:</td><td><p><span style="text-decoration: underline;"><strong>Diagnosis</strong></span></p>
+<p>T3 N0 M0 low rectal tumour - 7cm from anal verge - diagnosed 2013</p>
+
+<p><span style="text-decoration: underline;"><strong>Treatment</strong></span></p>
+<p>Dec 2013 - completed long course chemoradiotherapy to rectum - ARISTOTLE trial</p>
+<p>28 Feb 2014 - APER&nbsp; <strong>- ypT3 N1a M0 R0 (1/18 lymph node positive</strong>)</p>
+<p>No adjuvant chemotherapy given due to slow post-operative recovery inc requiring perineal VAC dressing&nbsp;&amp; GI bleed</p>
+<p>May 2014 -&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;parastomal stenosis&nbsp;&amp; refashioning at Ealing hospital</p>
+<p>Dec 2014 -&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;Segment VIII liver lesion resected</p>
+<p>4 June 2015 -&nbsp;&nbsp; lap repair of parastomal hernia</p>
+<p><strong>Dec 2015</strong> -&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>progressive disease with lung, adrenal and hilar metastases</strong></p>
+<p><strong>Jan 2016 -&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Chemotherapy with FOLFIRI + cetuximab within the FOCUS-4 trial</strong></p>
+
+
+<p>##TITLE## ##PATIENT_SURNAME## has started his FOLFIRI chemotherapy for his metastatic colorectal cancer.&nbsp; He tolerated the first two cycles reasonably well however did experience diarrhoea from his stoma bag which leaked following&nbsp;a second cycle.&nbsp; We did discuss having some prophylactic Loperamide after he has had this cycle in order to prevent diarrhoea occurring however he was somewhat reticent about this as he is concerned about his reduced outflow from&nbsp;the stoma.&nbsp; He has also experienced acneiform rash and after his chemotherapy which was seen by our 6-East Doctors and he has been prescribed some antihistamines and some topical cream.</p>
+<p><br />The main purpose&nbsp;of his visit to clinic today was to consent him for Cetuximab as his K-RAS molecular study has been shown to be wild type.&nbsp; He has been given written information about this and signed a consent form today.</p>
+<p><br />In view of him already having a rash on his back&nbsp;I have a low threshold for&nbsp;adding in Doxycycline to help prevent further infection and rash deterioration.</p>
+<p><br />He will be next seen again in the Nurse-Led Clinic.&nbsp; We will be keeping an eye on his tumour markers as they have risen to 61 after his first two cycles.&nbsp; If they continue to rise despite the addition of Cetuximab then we will scan him after four cycles however if they stabilise and reduce then we will scan him after eight cycles.&nbsp; He is aware of this plan and he will be reviewed in the Nurse-Led Clinic for now.</p></td></tr></table><BR><table  onmouseover="window.status = 'Transcription reference no. T5178364729';" onmouseout="window.status = '';" border=1 cellspacing=0 cellpadding=0 width="800px" style="font-family: Arial, sans; font-size: 12px;">
+<tr><td width="200px">Client:</td><td width="600px">Charing Cross Hospital - Cancer Services</td></tr>
+<tr><td>tuid:</td><td><div style="cursor:hand;color:red" onClick="javascript:location.href='https://www.dictate.it/dictateit2/clients/H0008CAN/documents/T5178364729/play'" onmouseover="window.status = 'Transcription reference no. T5178364729';" onmouseout="window.status = '';">T5178364729</div></td></tr>
+<tr><td>datesubmit:</td><td>2016/02/03 11:50:8.498806 GMT</td></tr>
+<tr><td>dateComplete:</td><td>2016/02/04 15:54:49.331686 GMT</td></tr>
+<tr><td>dictator:</td><td>Nicol_George</td></tr>
+<tr><td>patient ID:</td><td>CX913202</td></tr>
+
+<tr><td>Clinic Date:</td><td>01/02/2016</td></tr>
+<tr><td>Subject:</td><td></td></tr>
+<tr><td>Dear line:</td><td>##GP_TitleName##</td></tr>
+<tr><td>DOB:</td><td>03/04/1939</td></tr>
+<tr><td>Clinic Reference:</td><td></td></tr>
+<tr><td>Notes to secretary:</td><td>GP Letter
+<BR>Diagnosis and treatment as previous.
+<BR>Original letter: T6570693725
+<BR>Audio split; L2 starts at 02:25
+<BR>Please verify blank at timestamp indicated.</td></tr>
+<tr><td>Notes to dictator:</td><td>ALERT!  FILES NOT SPLIT IN ACCORDANCE WITH DICTATE.IT RECOMMENDATIONS.  BY USING THE EOL BUTTON ON BACK OF DICTAPHONE TO SPLIT AUDIO FILES YOU WILL ENSURE ONE FILE FOR EACH LETTER AND HELP MINIMISE RISK OF ERROR.</td></tr>
+<tr><td>Recipient Address:</td><td>##GP_TitleName##
+<BR>##Gp_Complete_Address_Vertical##</td></tr>
+<tr><td>Footer block:</td><td>CC:
+<BR>##Title## ##Patient_Firstname## ##Patient_Surname##
+<BR>##Patient_Complete_Address_Vertical##</td></tr>
+<tr><td>Error Flag:</td><td>0</td></tr>
+ 
+<tr><td>opTranscribe:</td><td>CTMT26</td></tr>
+<tr><td>opProof1:</td><td>CTPR7</td></tr>
+<tr><td>opProof2:</td><td> </td></tr>
+<tr><td>originalcontent:</td><td><P>I reviewed ##TITLE## ##PATIENT_SURNAME## accompanied by, Olivia Sharmon, our Clinical Nurse Specialist, Breast Cancer.&nbsp; ##TITLE## ##PATIENT_SURNAME## met with Dr Gujral last week to discuss change of treatment due to disease progression which was seen on her last CT and rising tumour markers.&nbsp; Her last CA-15-3 was 206 (check figures).</P>
+<P><BR>##TITLE## ##PATIENT_SURNAME## is concerned about starting Faslodex due to the liver toxicity and we have reassured her that the benefits of the treatment&nbsp;outweigh the risks and that we would be monitoring her blood test prior to each treatment in order to ensure safety going forward.&nbsp; We discussed again the results of her CT scan which have also showed bilateral pleural effusions worse on the right than the left and I have explained to her that the sputum that she was coughing out was not this pleural fluid and Dr Gujral explained to her that it may be that she has some infection which we have given her a prescription for antibiotics.&nbsp; She is also somewhat&nbsp;reticent about taking _____<STRONG>(04:18)</STRONG> she talked about the variety of homoeopathic and vitamins and mineral treatment that she is currently taking.&nbsp;&nbsp;We have explained that the brownish sputum is likely to continue on unless she at least tries the antibiotics.</P>
+<P><BR>She attended today with her son and he was keen for her&nbsp;to switch treatment and Dr Gujral met with both of them in clinic today.&nbsp; As a compromise we have suggested as ##TITLE## ##PATIENT_SURNAME## is keen to go back to the Aromatase inhibitor that we try six weeks of Letrozole which we emphasised should be taken everyday without fail and if there is no clinical response after six weeks we would strongly recommend Faslodex although this&nbsp;is also the recommended treatment options at this point in time.</P>
+<P><BR>We will see her again in six weeks' time and I would be grateful if her GP would add Letrozole 2.5mg once a day to her prescription.&nbsp; She expressed that&nbsp;we prescribe the&nbsp;same brand that is dispensed&nbsp;by the hospital pharmacy&nbsp;as she has had problems with side effects switching between brands.</P></td></tr>
+<tr><td>content:</td><td><p>I reviewed ##TITLE## ##PATIENT_SURNAME## accompanied by, Olivia Sharmon, our Clinical Nurse Specialist, Breast Cancer.&nbsp; ##TITLE## ##PATIENT_SURNAME## met with Dr Gujral last week to discuss change of treatment due to disease progression which was seen on her last CT and rising tumour markers.&nbsp; Her last CA-15-3 was 206 on the 28th Jan 2016.</p>
+<p><br />##TITLE## ##PATIENT_SURNAME## is concerned about starting Faslodex due to the liver toxicity and we have reassured her that the benefits of the treatment&nbsp;outweigh the risks and that we would be monitoring her blood tests prior to each treatment in order to ensure safety going forward.&nbsp; We discussed again the results of her CT scan which have also showed bilateral pleural effusions worse on the right than the left and I have explained to her that the sputum that she was coughing out was not this pleural fluid. Dr Gujral explained to her that it may be that she has some infection which we have given her a prescription for antibiotics.&nbsp; She is also somewhat&nbsp;reticent about taking these and&nbsp;she talked about the variety of homoeopathic and vitamin and mineral treatments that she is currently taking.&nbsp;&nbsp;We have explained that the brownish sputum is likely to continue on unless she at least tries the antibiotics.</p>
+<p><br />She attended today with her son and he was keen for her&nbsp;to switch treatment. Dr Gujral met with both of them in clinic today.&nbsp; Although our recommendation for immediate treatment would be Faslodex, as a compromise we have suggested, as ##TITLE## ##PATIENT_SURNAME## is keen to go back to the Aromatase inhibitor, that we try six weeks of Letrozole (which we emphasised should be taken everyday without fail) and if there is no clinical response after six weeks we would strongly recommend Faslodex.</p>
+<p><br />We will see her again in six weeks' time and I would be grateful if her GP would add Letrozole 2.5mg once a day to her prescription.&nbsp; She would be grateful if the same brand that is dispensed from the hosptial pharmacy is dispensed within the community as she has had problems with switching brands in the past.&nbsp;</p></td></tr></table><BR><table  onmouseover="window.status = 'Transcription reference no. T4435219896';" onmouseout="window.status = '';" border=1 cellspacing=0 cellpadding=0 width="800px" style="font-family: Arial, sans; font-size: 12px;">
+<tr><td width="200px">Client:</td><td width="600px">North Middlesex Hospital - Cardiology</td></tr>
+<tr><td>tuid:</td><td><div style="cursor:hand;color:red" onClick="javascript:location.href='https://www.dictate.it/dictateit2/clients/H0006C/documents/T4435219896/play'" onmouseover="window.status = 'Transcription reference no. T4435219896';" onmouseout="window.status = '';">T4435219896</div></td></tr>
+<tr><td>datesubmit:</td><td>2016/02/03 19:17:30.653644 GMT</td></tr>
+<tr><td>dateComplete:</td><td>2016/02/04 16:35:31.655714 GMT</td></tr>
+<tr><td>dictator:</td><td>Fahad_Iqbal</td></tr>
+<tr><td>patient ID:</td><td>N0836764</td></tr>
+
+<tr><td>Clinic Date:</td><td>03/02/2016</td></tr>
+<tr><td>Subject:</td><td></td></tr>
+<tr><td>Dear line:</td><td>Colleagues</td></tr>
+<tr><td>DOB:</td><td>20/10/1975</td></tr>
+<tr><td>Clinic Reference:</td><td></td></tr>
+<tr><td>Notes to secretary:</td><td>Non-GP Letter
+<BR>Please check Recipient</td></tr>
+<tr><td>Notes to dictator:</td><td></td></tr>
+<tr><td>Recipient Address:</td><td>Nuclear Medicine Department
+<BR>University College of London Hospital
+<BR>235 Euston Road
+<BR>London,
+<BR>NW1 2BU</td></tr>
+<tr><td>Footer block:</td><td>CC:
+<BR>##Title## ##Patient_Firstname## ##Patient_Surname## 
+<BR>##Patient_Complete_Address_Vertical##</td></tr>
+<tr><td>Error Flag:</td><td>0</td></tr>
+ 
+<tr><td>opTranscribe:</td><td>CTMT11</td></tr>
+<tr><td>opProof1:</td><td>CTPR7</td></tr>
+<tr><td>opProof2:</td><td> </td></tr>
+<tr><td>originalcontent:</td><td><P>I will be grateful if this gentleman could have a CT calcium score.&nbsp; He has&nbsp;presented with atypical chest pain over the last one year or so.&nbsp; He has risk factors being slightly hyperlipidaemic, family history of coronary disease.&nbsp; His examination was otherwise unremarkable.&nbsp; I would like to do a CT coronary to exclude any underlying coronary substrate for his symptom.</P></td></tr>
+<tr><td>content:</td><td><FONT size=3>
+<P>I will be grateful if this gentleman could have a CT calcium score.&nbsp; He has&nbsp;presented with atypical chest pain over the last one year or so.&nbsp; He has risk factors being slightly hyperlipidaemic, family history of coronary disease.&nbsp; His examination was otherwise unremarkable.&nbsp; I would like to do a CT coronary to exclude any underlying coronary substrate for his symptom.</P></FONT></td></tr></table><BR><table  onmouseover="window.status = 'Transcription reference no. T5275952424';" onmouseout="window.status = '';" border=1 cellspacing=0 cellpadding=0 width="800px" style="font-family: Arial, sans; font-size: 12px;">
+<tr><td width="200px">Client:</td><td width="600px">Charing Cross Hospital - Cancer Services</td></tr>
+<tr><td>tuid:</td><td><div style="cursor:hand;color:red" onClick="javascript:location.href='https://www.dictate.it/dictateit2/clients/H0008CAN/documents/T5275952424/play'" onmouseover="window.status = 'Transcription reference no. T5275952424';" onmouseout="window.status = '';">T5275952424</div></td></tr>
+<tr><td>datesubmit:</td><td>2016/02/02 19:35:8.006952 GMT</td></tr>
+<tr><td>dateComplete:</td><td>2016/02/04 13:58:50.896410 GMT</td></tr>
+<tr><td>dictator:</td><td>Amit_Samani</td></tr>
+<tr><td>patient ID:</td><td>CX045710</td></tr>
+
+<tr><td>Clinic Date:</td><td>02/02/2016</td></tr>
+<tr><td>Subject:</td><td></td></tr>
+<tr><td>Dear line:</td><td>##GP_TitleName##</td></tr>
+<tr><td>DOB:</td><td>04/07/1929</td></tr>
+<tr><td>Clinic Reference:</td><td>Dr Sarwar's Clinic</td></tr>
+<tr><td>Notes to secretary:</td><td>GP Letter
+<BR>Please use the diagnostic header used in Dr Sarwar's last letter.</td></tr>
+<tr><td>Notes to dictator:</td><td></td></tr>
+<tr><td>Recipient Address:</td><td>##GP_TitleName##
+<BR>##Gp_Complete_Address_Vertical##</td></tr>
+<tr><td>Footer block:</td><td>CC:
+<BR>##Title## ##Patient_Firstname## ##Patient_Surname##
+<BR>##Patient_Complete_Address_Vertical##</td></tr>
+<tr><td>Error Flag:</td><td>0</td></tr>
+ 
+<tr><td>opTranscribe:</td><td>CTMT26</td></tr>
+<tr><td>opProof1:</td><td>CTPR7</td></tr>
+<tr><td>opProof2:</td><td> </td></tr>
+<tr><td>originalcontent:</td><td><P>##TITLE## ##PATIENT_SURNAME## returned to Dr Sarwar's Clinic today.&nbsp; His history is summarised in the diagnostic header above.&nbsp; Essentially he has a diagnosis of metastatic renal cell carcinoma and is currently on surveillance.&nbsp; Last time he came to see us in clinic he was troubled by a persistent cough.&nbsp; We therefore organise some restaging scans.&nbsp; The restaging scan has shown two things of note.&nbsp; The first was extensive underlying interstitial change in the lung but has also been seen on previous scans.&nbsp; Of note however, ##TITLE## ##PATIENT_SURNAME## has never been formally diagnosed with any respiratory condition.&nbsp; Symptomatically he has had a persistent cough for three months which is severely affecting his quality of life.&nbsp; He obtained respite with Codeine Linctus but otherwise the cough is constantly troubling him.&nbsp; He is also more short of breath than usual.&nbsp; Six months ago he was able to walk relatively far on flat ground however he is now short of breath&nbsp;on mobilising around 20 to 30 yards.&nbsp; My previous examination however he was not short of breath at rest and indeed his chest examination did not reveal any respiratory crepitations.&nbsp; His saturations at that time were actually normal at rest.&nbsp; We did not do saturations after exercise.&nbsp; The MDT consensus was that we should refer ##TITLE## ##PATIENT_SURNAME## for opinion from a Respiratory Specialist and I will dictate a letter to our Respiratory Consultants to see if they can see him.&nbsp; The second thing of note was that he was found to have a new left lower lobe lung nodule and his previously known paratracheal lymph nodes had increased in size slightly.&nbsp; His&nbsp;previously known about adrenal lesion was unchanged.&nbsp; We explained that this essentially signifies disease progression and that the appearance of the new lesion is significant.&nbsp; ##TITLE## ##PATIENT_SURNAME## is however relatively asymptomatic apart from his cough and is eating well and maintaining a stable weight.&nbsp; He is not troubled by significant fatigue.&nbsp; We explained to him about the options of therapies however did warn him that they may have certain side effects.&nbsp; He would currently rather wait before he starts any therapy as he is worried about therapy potentially affecting his quality of life.&nbsp; Furthermore he is keen to get his interstitial disease looked at first.&nbsp; We will therefore comply with this and book him another CT scan in a months' time.&nbsp; This will be at two months from his previous CT scan rather than the usual three months that we wait normally.&nbsp; This&nbsp;would enable us to assess the pace of his disease and should there be a case that his disease volume is progressing significantly quickly it may be&nbsp;much wiser&nbsp;to begin treatment now while we have a window where he is relatively well rather than wait till he becomes symptomatic.&nbsp; ##PATIENT_FIRSTNAME## and his daughter and his partner understand this.&nbsp; Should he have any concerns before he&nbsp;comes to&nbsp;see us again in around five weeks ##TITLE## ##PATIENT_SURNAME## can get in touch otherwise we will order the restaging scan and see him again with the results of this in order to facilitate the treatment decision.&nbsp; In the meantime we will also refer him to the Respiratory Physicians to see if they can offer an advice from the point of view of his interstitial disease.</P>
+<P><BR>Thank you very much</P></td></tr>
+<tr><td>content:</td><td><P>##TITLE## ##PATIENT_SURNAME## returned to Dr Sarwar's Clinic today.&nbsp; His history is summarised in the diagnostic header above.&nbsp; Essentially he has a diagnosis of metastatic renal cell carcinoma and is currently on surveillance.&nbsp; Last time he came to see us in clinic he was troubled by a persistent cough.&nbsp; We therefore organise some restaging scans.&nbsp; The restaging scan has shown two things of note.&nbsp; The first was extensive underlying interstitial change in the lung but has also been seen on previous scans.&nbsp; Of note however, ##TITLE## ##PATIENT_SURNAME## has never been formally diagnosed with any respiratory condition.&nbsp; Symptomatically he has had a persistent cough for three months which is severely affecting his quality of life.&nbsp; He obtained respite with Codeine Linctus but otherwise the cough is constantly troubling him.&nbsp; He is also more short of breath than usual.&nbsp; Six months ago he was able to walk relatively far on flat ground however he is now short of breath&nbsp;on mobilising around 20 to 30 yards.&nbsp; My previous examination however he was not short of breath at rest and indeed his chest examination did not reveal any respiratory crepitations.&nbsp; His saturations at that time were actually normal at rest.&nbsp; We did not do saturations after exercise.&nbsp; The MDT consensus was that we should refer ##TITLE## ##PATIENT_SURNAME## for opinion from a Respiratory Specialist and I will dictate a letter to our Respiratory Consultants to see if they can see him.&nbsp; The second thing of note was that he was found to have a new left lower lobe lung nodule and his previously known paratracheal lymph nodes had increased in size slightly.&nbsp; His&nbsp;previously known about adrenal lesion was unchanged.&nbsp; We explained that this essentially signifies disease progression and that the appearance of the new lesion is significant.&nbsp; ##TITLE## ##PATIENT_SURNAME## is however relatively asymptomatic apart from his cough and is eating well and maintaining a stable weight.&nbsp; He is not troubled by significant fatigue.&nbsp; We explained to him about the options of therapies however did warn him that they may have certain side effects.&nbsp; He would currently rather wait before he starts any therapy as he is worried about therapy potentially affecting his quality of life.&nbsp; Furthermore he is keen to get his interstitial disease looked at first.&nbsp; We will therefore comply with this and book him another CT scan in a months' time.&nbsp; This will be at two months from his previous CT scan rather than the usual three months that we wait normally.&nbsp; This&nbsp;would enable us to assess the pace of his disease and should there be a case that his disease volume is progressing significantly quickly it may be&nbsp;much wiser&nbsp;to begin treatment now while we have a window where he is relatively well rather than wait till he becomes symptomatic.&nbsp; ##PATIENT_FIRSTNAME## and his daughter and his partner understand this.&nbsp; Should he have any concerns before he&nbsp;comes to&nbsp;see us again in around five weeks ##TITLE## ##PATIENT_SURNAME## can get in touch otherwise we will order the restaging scan and see him again with the results of this in order to facilitate the treatment decision.&nbsp; In the meantime we will also refer him to the Respiratory Physicians to see if they can offer an advice from the point of view of his interstitial disease.</P>
+<P><BR>Thank you very much</P></td></tr></table><BR><table  onmouseover="window.status = 'Transcription reference no. T3954529048';" onmouseout="window.status = '';" border=1 cellspacing=0 cellpadding=0 width="800px" style="font-family: Arial, sans; font-size: 12px;">
+<tr><td width="200px">Client:</td><td width="600px">St. Mary's Hospital Gynaecology</td></tr>
+<tr><td>tuid:</td><td><div style="cursor:hand;color:red" onClick="javascript:location.href='https://www.dictate.it/dictateit2/clients/H0009GY/documents/T3954529048/play'" onmouseover="window.status = 'Transcription reference no. T3954529048';" onmouseout="window.status = '';">T3954529048</div></td></tr>
+<tr><td>datesubmit:</td><td>2016/02/03 16:37:16.442273 GMT</td></tr>
+<tr><td>dateComplete:</td><td>2016/02/04 16:13:13.950367 GMT</td></tr>
+<tr><td>dictator:</td><td>Ania_Lucewicz</td></tr>
+<tr><td>patient ID:</td><td>CC272872</td></tr>
+
+<tr><td>Clinic Date:</td><td>03/02/2016</td></tr>
+<tr><td>Subject:</td><td></td></tr>
+<tr><td>Dear line:</td><td>##GP_TitleName##</td></tr>
+<tr><td>DOB:</td><td>31/03/1958</td></tr>
+<tr><td>Clinic Reference:</td><td>Miss Lyons' Rapid Access Clinic</td></tr>
+<tr><td>Notes to secretary:</td><td>GP Letter
+<BR>Please verify blank at timestamp indicated.</td></tr>
+<tr><td>Notes to dictator:</td><td></td></tr>
+<tr><td>Recipient Address:</td><td>##GP_TitleName##
+<BR>##GP_Complete_Address_Vertical##</td></tr>
+<tr><td>Footer block:</td><td>CC:
+<BR>##Title## ##Patient_Firstname## ##Patient_Surname##
+<BR>##Patient_Complete_Address_Vertical##</td></tr>
+<tr><td>Error Flag:</td><td>0</td></tr>
+ 
+<tr><td>opTranscribe:</td><td>CTMT14</td></tr>
+<tr><td>opProof1:</td><td>CTPR7</td></tr>
+<tr><td>opProof2:</td><td> </td></tr>
+<tr><td>originalcontent:</td><td><P>Thank you very kindly for referring ##TITLE## ##PATIENT_SURNAME## to our clinic.&nbsp; We saw ##TITLE## ##PATIENT_SURNAME## today for review investigation of post menopausal bleeding.&nbsp; She is a delightful 57 year old lady who has experienced a recent episode of vaginal bleeding which lasted for four days in the context of a year prior with no periods.&nbsp; Furthermore, 12 months ago she also had an episode of heavy bleeding and was unsure whether this was a period as she has had few periods in a year prior and thought perhaps that she was menopausal.&nbsp; She is currently on HRT patches and is unsure of how many years she has been on them.&nbsp; </P>
+
+<P>Obstetrically speaking, she is a gravida 3, para&nbsp;1 with one previous normal vaginal delivery with no complications.&nbsp; She had menarche at the age of 11 and when she did have periods she menstruated regularly with a 28 day cycle.&nbsp; She suffered from menorrhagia in her 20s, and had an endometrial ablation when she was about 27 years old.&nbsp; She cannot recall exactly when her regular period ceased and thinks it was possibly around five years ago.&nbsp; She has previously used the oral contraceptive pill and IUD, but she has nothing in situ now.&nbsp; She has had a normal Pap smear less than two years ago.&nbsp; She continues on the HRT as you know.</P>
+
+<P>Her past medical history is significant for hypothyroidism, and she states that her thyroid function tests six months ago were normal.&nbsp; She, however, now feels sluggish and feels that she may have become hypothyroid again.&nbsp; We have thus organised repeat thyroid function tests for her today.&nbsp; She has had a total knee replacement and ankle fixation, she suffers from hypertension, dyslipidaemia and gastroesophageal reflux disease.</P>
+
+<P>Her current medications include Levothyroxine, _____<STRONG>(03:08)</STRONG>, Tramadol, Perindopril, Atorvastatin, Amlodipine and Bendroflumethiazide, Ibuprofen and HRT patches and Lansoprazole.</P>
+
+<P>On examination today, she had a soft, non-tender abdomen with a bulky uterus palpable more so on the patient's left than on the right.&nbsp; Bimanual examination was difficult due to habitus, but the uterus was bulky, but mobile.&nbsp; On speculum, she had a multip os with no bleeding seen and a Pipelle was passed and sample sent.</P>
+
+<P>She also had an ultrasound today that demonstrated a 156 x 86 x 128 large very bulky and globular anteverted uterus with heterogeneous patchy echogenicity consistent with adenomyosis.&nbsp; It was very difficult to assess the masses due to the heterogeneity of the uterus.&nbsp; The endometrium was difficult to identify for the Sonographer, but in all three potential images of the endometrium the thinnest was 10 mm which is thick for age.&nbsp; However, it might be thicker.&nbsp;&nbsp; No obvious masses were seen.</P>
+
+<P>The case was discussed with one of our Clinical Nurse Specialists today, who agreed to follow up the Pipelle sample within the coming weeks.&nbsp; We have given ##TITLE## ##PATIENT_SURNAME## a follow-up appointment within two weeks.&nbsp; If the Pipelle sample were to prove inadequate, we will&nbsp;organise an outpatient hysteroscopy over the telephone over the next week.&nbsp; We have also sent ##TITLE## ##PATIENT_SURNAME## for thyroid function tests today.</P>
+
+<P>Thank you very kindly for referring ##TITLE## ##PATIENT_SURNAME##.&nbsp; We will see&nbsp;her again in two weeks' time.&nbsp; We will keep you informed.</P>
+
+<P>Kindest regards</P></td></tr>
+<tr><td>content:</td><td><P>Thank you very kindly for referring ##TITLE## ##PATIENT_SURNAME## to our clinic.&nbsp; We saw ##TITLE## ##PATIENT_SURNAME## today for review investigation of post menopausal bleeding.&nbsp; She is a delightful 57 year old lady who has experienced a recent episode of vaginal bleeding which lasted for four days in the context of a year prior with no periods.&nbsp; Furthermore, 12 months ago she also had an episode of heavy bleeding and was unsure whether this was a period as she has had few periods in a year prior and thought perhaps that she was menopausal.&nbsp; She is currently on HRT patches and is unsure of how many years she has been on them.&nbsp; </P>
+
+<P>Obstetrically speaking, she is a gravida 3, para&nbsp;1 with one previous normal vaginal delivery with no complications.&nbsp; She had menarche at the age of 11 and when she did have periods she menstruated regularly with a 28 day cycle.&nbsp; She suffered from menorrhagia in her 20s, and had an endometrial ablation when she was about 27 years old.&nbsp; She cannot recall exactly when her regular period ceased and thinks it was possibly around five years ago.&nbsp; She has previously used the oral contraceptive pill and IUD, but she has nothing in situ now.&nbsp; She has had a normal Pap smear less than two years ago.&nbsp; She continues on the HRT as you know.</P>
+
+<P>Her past medical history is significant for hypothyroidism, and she states that her thyroid function tests six months ago were normal.&nbsp; She, however, now feels sluggish and feels that she may have become hypothyroid again.&nbsp; We have thus organised repeat thyroid function tests for her today.&nbsp; She has had a total knee replacement and ankle fixation, she suffers from hypertension, dyslipidaemia and gastroesophageal reflux disease.</P>
+
+<P>Her current medications include Levothyroxine, _____<STRONG>(03:08)</STRONG>, Tramadol, Perindopril, Atorvastatin, Amlodipine and Bendroflumethiazide, Ibuprofen and HRT patches and Lansoprazole.</P>
+
+<P>On examination today, she had a soft, non-tender abdomen with a bulky uterus palpable more so on the patient's left than on the right.&nbsp; Bimanual examination was difficult due to habitus, but the uterus was bulky, but mobile.&nbsp; On speculum, she had a multip os with no bleeding seen and a Pipelle was passed and sample sent.</P>
+
+<P>She also had an ultrasound today that demonstrated a 156 x 86 x 128 large very bulky and globular anteverted uterus with heterogeneous patchy echogenicity consistent with adenomyosis.&nbsp; It was very difficult to assess the masses due to the heterogeneity of the uterus.&nbsp; The endometrium was difficult to identify for the Sonographer, but in all three potential images of the endometrium the thinnest was 10 mm which is thick for age.&nbsp; However, it might be thicker.&nbsp;&nbsp; No obvious masses were seen.</P>
+
+<P>The case was discussed with one of our Clinical Nurse Specialists today, who agreed to follow up the Pipelle sample within the coming weeks.&nbsp; We have given ##TITLE## ##PATIENT_SURNAME## a follow-up appointment within two weeks.&nbsp; If the Pipelle sample were to prove inadequate, we will&nbsp;organise an outpatient hysteroscopy over the telephone over the next week.&nbsp; We have also sent ##TITLE## ##PATIENT_SURNAME## for thyroid function tests today.</P>
+
+<P>Thank you very kindly for referring ##TITLE## ##PATIENT_SURNAME##.&nbsp; We will see&nbsp;her again in two weeks' time.&nbsp; We will keep you informed.</P>
+
+<P>Kindest regards</P></td></tr></table><BR><table  onmouseover="window.status = 'Transcription reference no. T3647569224';" onmouseout="window.status = '';" border=1 cellspacing=0 cellpadding=0 width="800px" style="font-family: Arial, sans; font-size: 12px;">
+<tr><td width="200px">Client:</td><td width="600px">St. Mary's Hospital Gynaecology</td></tr>
+<tr><td>tuid:</td><td><div style="cursor:hand;color:red" onClick="javascript:location.href='https://www.dictate.it/dictateit2/clients/H0009GY/documents/T3647569224/play'" onmouseover="window.status = 'Transcription reference no. T3647569224';" onmouseout="window.status = '';">T3647569224</div></td></tr>
+<tr><td>datesubmit:</td><td>2016/02/03 16:37:17.013035 GMT</td></tr>
+<tr><td>dateComplete:</td><td>2016/02/04 16:27:9.457023 GMT</td></tr>
+<tr><td>dictator:</td><td>Ania_Lucewicz</td></tr>
+<tr><td>patient ID:</td><td>CC191488</td></tr>
+
+<tr><td>Clinic Date:</td><td>03/02/2016</td></tr>
+<tr><td>Subject:</td><td></td></tr>
+<tr><td>Dear line:</td><td>##GP_TitleName##</td></tr>
+<tr><td>DOB:</td><td>31/12/1968</td></tr>
+<tr><td>Clinic Reference:</td><td></td></tr>
+<tr><td>Notes to secretary:</td><td>GP Letter</td></tr>
+<tr><td>Notes to dictator:</td><td></td></tr>
+<tr><td>Recipient Address:</td><td>##GP_TitleName##
+<BR>##GP_Complete_Address_Vertical##</td></tr>
+<tr><td>Footer block:</td><td>CC:
+<BR>##Title## ##Patient_Firstname## ##Patient_Surname##
+<BR>##Patient_Complete_Address_Vertical##</td></tr>
+<tr><td>Error Flag:</td><td>0</td></tr>
+ 
+<tr><td>opTranscribe:</td><td>CTMT14</td></tr>
+<tr><td>opProof1:</td><td>CTPR7</td></tr>
+<tr><td>opProof2:</td><td> </td></tr>
+<tr><td>originalcontent:</td><td><P>Thank you very kindly for referring ##TITLE## ##PATIENT_SURNAME## to our clinic.&nbsp; She is a 48 year old Farsi speaking woman who has presented for assessment and investigation of one episode of postmenopausal bleeding.&nbsp; She has experienced one episode of bleeding around a month ago which lasted one to two days and consisted of&nbsp;a brown coloured discharge four to five teaspoons in volume.&nbsp; She had some associated mild pain and a mild fever at the time.&nbsp; She is postmenopausal, and her last normal period was 18 months ago.</P>
+
+<P>Obstetrically speaking, she is a gravida 4, para&nbsp;1 with one vaginal delivery, two early miscarriages and one 25 week&nbsp;pregnancy loss.&nbsp; She had menarche at age 12 and prior to the cessation of periods 18 months ago the periods were irregular.&nbsp; She has a normal Pap smear in January 2016, and also a known fibroid uterus.&nbsp; We had some difficulty with<STRONG> </STRONG>interpreting translating today, but ##TITLE## ##PATIENT_SURNAME## described what seems to be either an oophorectomy or cystectomy in 2002 on the right side where she says that she presented with some right iliac fossa pain and said that she thinks that the ovary may have torted.</P>
+
+<P>Her past medical history is significant for depression for which she sees you, her General Practitioner.&nbsp; Her medications were not brought today, but consist of an antidepressant and I think something for her gastroesophageal reflux.&nbsp; She has no known allergies.</P>
+
+<P>On examination today, her abdomen was soft, nontender and&nbsp;the&nbsp;fundus was not palpable.&nbsp; Bimanual exam was unremarkable and there was may be a possible small mass in the right iliac fossa.&nbsp; On speculum, we noted a bulky cervix which was displaced to the patient's left and could not pass the Pipelle as the cervical canal was at an angle.</P>
+
+<P>We conducted an ultrasound&nbsp;in the pelvis today which showed an anteverted uterus containing multiple known fibroids with the largest one being a right pedunculated subserosal fibroid measuring 33 x 23 mm.&nbsp; The second largest was seen in the lower posterior wall measuring 18 x 15 mm.&nbsp; The endometrium was noted to be borderline thickened at 4.6 mm.&nbsp; The ovaries appeared normal.&nbsp; There was no free fluid or adnexal masses seen.</P>
+
+<P>This case was discussed with Dr Taheri, the SpR, and we have thus booked the patient for an outpatient hysteroscopy and endometrial biopsy.&nbsp; We note that she needs a Farsi translator for this.</P>
+
+<P>Thank you very kindly for your referral of ##TITLE## ##PATIENT_SURNAME##, we will most certainly keep you informed.</P>
+
+<P>Kindest regard</P></td></tr>
+<tr><td>content:</td><td><P>Thank you very kindly for referring ##TITLE## ##PATIENT_SURNAME## to our clinic.&nbsp; She is a 48 year old Farsi speaking woman who has presented for assessment and investigation of one episode of postmenopausal bleeding.&nbsp; She has experienced one episode of bleeding around a month ago which lasted one to two days and consisted of&nbsp;a brown coloured discharge four to five teaspoons in volume.&nbsp; She had some associated mild pain and a mild fever at the time.&nbsp; She is postmenopausal, and her last normal period was 18 months ago.</P>
+
+<P>Obstetrically speaking, she is a gravida 4, para&nbsp;1 with one vaginal delivery, two early miscarriages and one 25 week&nbsp;pregnancy loss.&nbsp; She had menarche at age 12 and prior to the cessation of periods 18 months ago the periods were irregular.&nbsp; She has a normal Pap smear in January 2016, and also a known fibroid uterus.&nbsp; We had some difficulty with<STRONG> </STRONG>interpreting translating today, but ##TITLE## ##PATIENT_SURNAME## described what seems to be either an oophorectomy or cystectomy in 2002 on the right side where she says that she presented with some right iliac fossa pain and said that she thinks that the ovary may have torted.</P>
+
+<P>Her past medical history is significant for depression for which she sees you, her General Practitioner.&nbsp; Her medications were not brought today, but consist of an antidepressant and I think something for her gastroesophageal reflux.&nbsp; She has no known allergies.</P>
+
+<P>On examination today, her abdomen was soft, nontender and&nbsp;the&nbsp;fundus was not palpable.&nbsp; Bimanual exam was unremarkable and there was may be a possible small mass in the right iliac fossa.&nbsp; On speculum, we noted a bulky cervix which was displaced to the patient's left and could not pass the Pipelle as the cervical canal was at an angle.</P>
+
+<P>We conducted an ultrasound&nbsp;in the pelvis today which showed an anteverted uterus containing multiple known fibroids with the largest one being a right pedunculated subserosal fibroid measuring 33 x 23 mm.&nbsp; The second largest was seen in the lower posterior wall measuring 18 x 15 mm.&nbsp; The endometrium was noted to be borderline thickened at 4.6 mm.&nbsp; The ovaries appeared normal.&nbsp; There was no free fluid or adnexal masses seen.</P>
+
+<P>This case was discussed with Dr Taheri, the SpR, and we have thus booked the patient for an outpatient hysteroscopy and endometrial biopsy.&nbsp; We note that she needs a Farsi translator for this.</P>
+
+<P>Thank you very kindly for your referral of ##TITLE## ##PATIENT_SURNAME##, we will most certainly keep you informed.</P>
+
+<P>Kindest regard</P></td></tr></table><BR><table  onmouseover="window.status = 'Transcription reference no. T1416614173';" onmouseout="window.status = '';" border=1 cellspacing=0 cellpadding=0 width="800px" style="font-family: Arial, sans; font-size: 12px;">
+<tr><td width="200px">Client:</td><td width="600px">North Middlesex Hospital - Cardiology</td></tr>
+<tr><td>tuid:</td><td><div style="cursor:hand;color:red" onClick="javascript:location.href='https://www.dictate.it/dictateit2/clients/H0006C/documents/T1416614173/play'" onmouseover="window.status = 'Transcription reference no. T1416614173';" onmouseout="window.status = '';">T1416614173</div></td></tr>
+<tr><td>datesubmit:</td><td>2016/02/03 19:17:31.820196 GMT</td></tr>
+<tr><td>dateComplete:</td><td>2016/02/04 16:45:38.619239 GMT</td></tr>
+<tr><td>dictator:</td><td>Fahad_Iqbal</td></tr>
+<tr><td>patient ID:</td><td>N0682046</td></tr>
+
+<tr><td>Clinic Date:</td><td>03/02/2016</td></tr>
+<tr><td>Subject:</td><td></td></tr>
+<tr><td>Dear line:</td><td>Colleague</td></tr>
+<tr><td>DOB:</td><td>12/06/1974</td></tr>
+<tr><td>Clinic Reference:</td><td></td></tr>
+<tr><td>Notes to secretary:</td><td>Non-GP Letter</td></tr>
+<tr><td>Notes to dictator:</td><td></td></tr>
+<tr><td>Recipient Address:</td><td>Nuclear Medicine Department University College London Hospital
+<BR>235 Euston Road
+<BR>London
+<BR>NW1 2BU</td></tr>
+<tr><td>Footer block:</td><td>CC:
+<BR>##Title## ##Patient_Firstname## ##Patient_Surname##
+<BR>##Patient_Complete_Address_Vertical##</td></tr>
+<tr><td>Error Flag:</td><td>0</td></tr>
+ 
+<tr><td>opTranscribe:</td><td>CTMT11</td></tr>
+<tr><td>opProof1:</td><td>CTPR7</td></tr>
+<tr><td>opProof2:</td><td> </td></tr>
+<tr><td>originalcontent:</td><td><P>I would be grateful&nbsp;if this gentleman could have a CT coronary angiogram.&nbsp; He has presented with&nbsp;intermittent left sided chest pain with exertional shortness of breath.&nbsp; He has some symptoms suggestive of obstructive sleep apnoea as well.&nbsp; He is a smoker of 20 cigarettes a day and occasionally drinks alcohol.&nbsp; Examination was unremarkable with some nonspecific changes in the inferior leads.&nbsp; I would like to exclude any coronary substitute for his symptoms.</P></td></tr>
+<tr><td>content:</td><td><P>I would be grateful&nbsp;if this gentleman could have a CT coronary angiogram.&nbsp; He has presented with&nbsp;intermittent left sided chest pain with exertional shortness of breath.&nbsp; He has some symptoms suggestive of obstructive sleep apnoea as well.&nbsp; He is a smoker of 20 cigarettes a day and occasionally drinks alcohol.&nbsp; Examination was unremarkable with some nonspecific changes in the inferior leads.&nbsp; I would like to exclude any coronary substitute for his symptoms.</P></td></tr></table><BR>total: 14 <B>

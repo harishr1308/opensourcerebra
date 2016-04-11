@@ -1,23 +1,30 @@
-
-if [ ! -d "$DIRECTORY/../tno" ]; then
-	mkdir ../tno \;
+#$DIRECTORY = "testagain";
+if ! [ -d "$DIRECTORY/../tno" ]
+then
+	mkdir ../tno
 fi
 
 find ./ -type f -name "T*.txt" -exec mv {} ./../tno \;
-if [ ! -d "$DIRECTORY/../files" ]; then
-	mkdir ../files \;
-	mkdir ../files/fcorrect \;
-	mkdir ../files/ferror \;
+if ! [ -d "$DIRECTORY/../files" ]
+then
+	mkdir ../files 
+	cd ../files
+	mkdir fcorrect 
+	mkdir ferror 
+	cd ../testagain 
 fi
 
 find ./ -type f -name "file*c.txt" -exec mv {} ./../files/fcorrect \;
 
 find ./ -type f -name "file*e.txt" -exec mv {} ./../files/ferror \;
 
-if [ ! -d "$DIRECTORY/../sfile" ]; then
-	mkdir ../sfile \;
-	mkdir ../sfile/scorrect \;
-	mkdir ../sfile/serror \;
+if ! [ -d "$DIRECTORY/../sfile" ]
+then
+	mkdir ../sfile 
+	cd ../sfile
+	mkdir scorrect 
+	mkdir serror 
+	cd ../testagain
 fi
 
 find ./ -type f -name "s*c.txt" -exec mv {} ./../sfile/scorrect \;
