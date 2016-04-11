@@ -65,7 +65,7 @@ int main()
      	tfile<<lines[q];
      tfile.close();
      file.close();
-     remove("tnolist.cpp");
+     remove("tnolist.txt");
      if(rename("temp4.txt","tnolist.txt"));
      else
        {
