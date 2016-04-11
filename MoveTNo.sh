@@ -36,4 +36,4 @@ find ./ -type f -name "tnoaudiolist.txt" -exec mv {} ./../ \;
 find ./ -type f -name "tnolist.txt" -exec mv {} ./../ \;
 
 chmod +x compsfiles.sh
-./compsfile.sh
+./compsfiles.sh
