@@ -1,4 +1,4 @@
-#$DIRECTORY = "testagain";
+#$DIRECTORY = "html";
 if ! [ -d "$DIRECTORY/../tno" ]
 then
 	mkdir ../tno
@@ -11,7 +11,7 @@ then
 	cd ../files
 	mkdir fcorrect 
 	mkdir ferror 
-	cd ../testagain 
+	cd ../html
 fi
 
 find ./ -type f -name "file*c.txt" -exec mv {} ./../files/fcorrect \;
@@ -24,7 +24,7 @@ then
 	cd ../sfile
 	mkdir scorrect 
 	mkdir serror 
-	cd ../testagain
+	cd ../html
 fi
 
 find ./ -type f -name "s*c.txt" -exec mv {} ./../sfile/scorrect \;
