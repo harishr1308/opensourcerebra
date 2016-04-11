@@ -17,7 +17,7 @@ vector<string> open(string path = ".")
  while (pdir = readdir(dir))
   {
     string fn = pdir->d_name;
-    if(fn.substr(fn.find_last_of(".") + 1) == "txt" && (fn[0]!='T' && fn[0]!='f' && fn[0]!='s'))
+    if(fn.substr(fn.find_last_of(".") + 1) == "txt" && (fn[0]>=48 && fn[0]<=57))
       files.push_back(fn);
   }
  return files;
