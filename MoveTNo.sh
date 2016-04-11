@@ -1,4 +1,13 @@
 #$DIRECTORY = "html";
+rm "c.txt"
+rm "e.txt"
+rm "temp.txt"
+rm "temp2.txt"
+rm "temp3.txt"
+rm "temp4.txt"
+
+
+
 if ! [ -d "$DIRECTORY/../tno" ]
 then
 	mkdir ../tno
