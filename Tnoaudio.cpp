@@ -40,6 +40,7 @@ int main()
  tcfile.open("tnomissingaudiolist.txt",fstream::in|fstream::out|fstream::trunc);
  for(int p=0;p<files.size();p++)
  {
+  int check = 0;
   string temp = files[p];
   file.open(temp.c_str(),fstream::in|fstream::out);
   cout<<temp<<" is open"<<endl;
@@ -59,7 +60,7 @@ int main()
     string textfile(buffer);
     cout<<"printing textfile"<<endl;
     //cout<<textfile<<endl;
-    int check = 0;
+    
     for(;l<textfile.size()-5;l++)
      {
       if(a=='\'' && b=='h' && c=='t' && d=='t' && e=='p')
