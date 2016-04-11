@@ -35,7 +35,9 @@ int main()
  files = open(); // or pass which dir to open
  fstream file;
  fstream tfile;
+ fstream tcfile;
  tfile.open("temp2.txt",fstream::in|fstream::out|fstream::trunc);
+ tcfile.open("tnomissingaudiolist.txt",fstream::in|fstream::out|fstream::trunc);
  for(int p=0;p<files.size();p++)
  {
   string temp = files[p];
@@ -57,12 +59,13 @@ int main()
     string textfile(buffer);
     cout<<"printing textfile"<<endl;
     //cout<<textfile<<endl;
-    
+    int check = 0;
     for(;l<textfile.size()-5;l++)
      {
       if(a=='\'' && b=='h' && c=='t' && d=='t' && e=='p')
       {
       	l++;
+      	check=1;
       	while(a!='\'')
       	{
       		tfile<<a;l++;
@@ -77,7 +80,11 @@ int main()
     else
       cout<<"End of file reached for some reason"<<endl;
     file.close();
+    if (check==0)
+       tcfile<<"Audio file link is missing : " << temp << endl;
   }
+  tcfile.close();
+  tfile.close();
   if(rename("temp2.txt","tnoaudiolist.txt"))
      cout<<"File is renamed as : tnoaudiolist"<<endl;
   else
