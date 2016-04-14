@@ -20,8 +20,9 @@ int main()
 {
  fstream file;
  fstream tfile;
- file.open("tnolist.txt",fstream::in|fstream::out);
-  if (file.good())
+ file.open("tnoserrorfilelist.txt",fstream::in|fstream::out);
+ 
+  if (tfile.good())
    {
    	 l=0;
    	 length=0;
@@ -61,8 +62,8 @@ int main()
      	tfile<<lines[q]<<endl;
      tfile.close();
      file.close();
-     remove("tnolist.txt");
-     if(rename("temp4.txt","tnolist.txt"));
+     remove("tnoserrorfilelist.txt");
+     if(rename("temp4.txt","tnoserrorfilelist.txt"));
      else
        {
          perror( "Error renaming file" );
@@ -76,6 +77,5 @@ int main()
       cout<<"End of file reached for some reason"<<endl;
     }
   remove("temp4.txt");
-  system("g++ tnoaudio.cpp && ./a.out");
   return 0;
 }

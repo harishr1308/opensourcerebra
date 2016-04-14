@@ -110,6 +110,9 @@ int main()
     }
     file.close();
   }
+  remove("temp4.txt");
+  system("g++ tnosfilelisting.cpp && ./a.out");
+  system("g++ findingmissingfiles.cpp && ./a.out");
   system("chmod +x MoveTNo.sh && ./MoveTNo.sh");
   return 0;
 }

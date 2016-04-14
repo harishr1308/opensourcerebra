@@ -136,6 +136,7 @@ int main()
             {
               perror( "Error renaming file" );
             }
+        remove("temp2.txt");
         tfile.open("temp2.txt",fstream::in|fstream::out|fstream::trunc);
        }
       else if(a=='<' && b=='/' && c=='t' && d=='a' && e=='b' && f=='l' && g=='e' && h=='>')
@@ -164,6 +165,8 @@ int main()
     file.close();
   }
   remove("temp2.txt");
+  remove("c.txt");
+  remove("e.txt");
   system("g++ sfile.cpp && ./a.out");
   return 0;
 }

@@ -130,6 +130,7 @@ int main()
          // cout<<endl;
           cout<<"all data entered"<<endl;
           tfile.close();
+          remove("temp.txt");
           tfile.open("temp.txt",fstream::in|fstream::out|fstream::trunc);
         }
         else
