@@ -40,7 +40,7 @@ vector<string> readingfile(fstream &temp, int &nooflines)
      nooflines=0;
      for(;l<length;l++)
       {
-       if(a=='\n' && l<length-1)
+       if(a=='\n'  && l<length-1)
        {
          lines.push_back(line);nooflines++;
          line="";
@@ -94,59 +94,21 @@ void writingfiles(string name,vector<string> &v, int &nooflines)
 
 int main() 
 {
- fstream tfile;
- fstream tfile1;
- fstream tfile2;
  fstream tfile3;
- fstream tfile4;
 
- string filename="missingtnolist.txt";
- string filename1="missingtnofcorrectfilelist.txt";
- string filename2="missingtnoferrorfilelist.txt";
  string filename3="missingtnoserrorfilelist.txt";
- string filename4="missingtnoscorrectfilelist.txt";
  
- tfile.open(filename.c_str(),fstream::in|fstream::out);
- tfile1.open(filename1.c_str(),fstream::in|fstream::out);
- tfile2.open(filename2.c_str(),fstream::in|fstream::out);
  tfile3.open(filename3.c_str(),fstream::in|fstream::out);
- tfile4.open(filename4.c_str(),fstream::in|fstream::out);
 
- int nooffilelist=0;
- int nooffile1list=0;
- int nooffile2list=0;
  int nooffile3list=0;
- int nooffile4list=0;
 
- vector<string> filelist;
- vector<string> fcfilelist;
- vector<string> fefilelist;
  vector<string> scfilelist;
- vector<string> sefilelist;
 
- filelist=readingfile(tfile,nooffilelist);
- fcfilelist=readingfile(tfile1,nooffile1list);
- fefilelist=readingfile(tfile2,nooffile2list);
  scfilelist=readingfile(tfile3,nooffile3list);
- sefilelist=readingfile(tfile4,nooffile4list);
 
- filelist=sortingfiles(filelist);
- fcfilelist=sortingfiles(fcfilelist);
- fefilelist=sortingfiles(fefilelist);
  scfilelist=sortingfiles(scfilelist);
- sefilelist=sortingfiles(sefilelist);
 
- writingfiles(filename,filelist,nooffilelist);
- writingfiles(filename1,fcfilelist,nooffile1list);
- writingfiles(filename2,fefilelist,nooffile2list);
  writingfiles(filename3,scfilelist,nooffile3list);
- writingfiles(filename4,sefilelist,nooffile4list);
  
- system("g++ missingfcfilessorting.cpp && ./a.out");
- system("g++ missingfefilessorting.cpp && ./a.out");
- system("g++ missingscfilessorting.cpp && ./a.out");
- system("g++ missingsefilessorting.cpp && ./a.out");
- system("g++ missingtnofilessorting.cpp && ./a.out");
-
   return 0;
 }

@@ -38,7 +38,7 @@ vector<string> updatevector(fstream &tempfile,int &nooflines)
      nooflines=0;
      for(;l<length;l++)
       {
-       if(a=='\n')
+       if(a=='\n' && l<length-1)
        {
         if(l!=0)
         {
@@ -88,6 +88,7 @@ void missingfile(fstream &temp,vector<string> &vtemp, vector<string> &ftemp)
   //cout<<"it has entered the function"<<endl;
   set_difference(vtemp.begin(),vtemp.end(),ftemp.begin(),ftemp.end(),inserter(v, v.begin()));
   //cout<<"set_difference works"<<endl; 
+  sort(v.begin(),v.end());
   for (it=v.begin(); it!=v.end(); ++it)
   {
     temp<<*it<<endl;
