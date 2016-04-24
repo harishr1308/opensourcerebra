@@ -76,6 +76,6 @@ int main()
       cout<<"End of file reached for some reason"<<endl;
     }
   remove("temp4.txt");
-  system("g++ tnoaudio.cpp && ./a.out");
+  //system("g++ tnoaudio.cpp && ./a.out");
   return 0;
 }

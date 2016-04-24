@@ -42,7 +42,7 @@ int main()
   cout<<file.good()<<endl;
  }
  tfile.close();
- system("g++ tnolistsort.cpp && ./a.out");
- system("g++ tag.cpp && ./a.out");
+ //system("g++ tnolistsort.cpp && ./a.out");
+ //system("g++ tag.cpp && ./a.out");
 return 0;
 }

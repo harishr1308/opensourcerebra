@@ -8,12 +8,12 @@
 #include <dirent.h>
 using namespace std;
 int l=0;
-#define a textfile[l]  //<  <
-#define b textfile[l+1]//p  /
-#define c textfile[l+2]//>  p
-#define d textfile[l+3]//   > 
-#define e textfile[l+4]
-#define f textfile[l+5]
+#define a textfile[l]  //<  <   <  <
+#define b textfile[l+1]//p  /   D  /
+#define c textfile[l+2]//>  p   I  D
+#define d textfile[l+3]//   >   V  I
+#define e textfile[l+4]//       >  V
+#define f textfile[l+5]//          >
 #define g textfile[l+6]
 #define h textfile[l+7]
 #define i textfile[l+8]
@@ -126,6 +126,65 @@ int main()
           }
         }
        }
+      else if(a=='<' && (b=='d' || b=='D') && (c=='i' || c=='I') && (d=='v' || d=='V') && e=='>')
+       {
+        string tn = "file" + temp;
+        cout<<"printing tn : "<<tn<<endl;
+        l+=5;
+        tname = tn;
+        tname.resize(15);
+        tn = "";
+        for(;l<textfile.size();l++)
+        {
+          if(a=='<')
+          {
+            if (b!='/')
+            {// it is not /
+              tfile<<" ";
+              while(a!='>')
+              {
+                l++;
+              }
+            }
+            else
+            {// it is /
+              if ((c=='d' || c=='D') && (d=='i' || d=='I') && (e=='v' || e=='V') && f=='>')
+              {
+                l+=6;
+                tfile<<"\n";
+                cout<<"div done"<<endl;
+                break;    
+              }
+              else
+              {
+                while(a!='>')
+                {
+                  l++;
+                }
+              }
+            }
+          }
+          else if(a=='&' && b=='n' && c=='b' && d=='s' && e=='p' && f==';' && textfile[l-1]!=' ' && g!=' ')
+          {
+
+            l+=5;
+            tfile<<' ';
+          }
+          else if(a=='&' && b=='n' && c=='b' && d=='s' && e=='p' && f==';' && (textfile[l-1]!=' ' || g!=' '))
+          {
+
+            l+=5;
+          //  tfile<<' ';
+          }
+          else
+          {
+           // cout<<"entered while loop"<<endl;
+           tfile<<textfile[l];
+           //cout<<textfile[l];
+           //l++;
+          }
+        }
+       }
       else if(a=='>' && b=='c' && c=='o' && d=='n' && e=='t' && f=='e' && g=='n' && h=='t' && i==':' && j=='<') //>content:<
        {
         tfile.close();
@@ -167,6 +226,6 @@ int main()
   remove("temp2.txt");
   remove("c.txt");
   remove("e.txt");
-  system("g++ sfile.cpp && ./a.out");
+  //system("g++ sfile.cpp && ./a.out");
   return 0;
 }

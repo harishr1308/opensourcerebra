@@ -56,7 +56,7 @@ int main()
   cout<<file.good()<<endl;
  }
  tfile.close();
- system("g++ tnofcfilelistsort.cpp && ./a.out");
- system("g++ tnofefilelistsort.cpp && ./a.out");
+// system("g++ tnofcfilelistsort.cpp && ./a.out");
+// system("g++ tnofefilelistsort.cpp && ./a.out");
 return 0;
 }

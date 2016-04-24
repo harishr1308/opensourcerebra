@@ -109,6 +109,6 @@ int main()
     file.close();
   }
   remove("temp4.txt");
-  system("g++ scheck_blank.cpp && ./a.out");
+  //system("g++ scheck_blank.cpp && ./a.out");
   return 0;
 }

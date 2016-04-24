@@ -159,6 +159,6 @@ int main()
     file.close();
   }
   remove("temp.txt");
-  system("g++ tnolisting.cpp && ./a.out");
+  //system("g++ tnolisting.cpp && ./a.out");
   return 0;
 }

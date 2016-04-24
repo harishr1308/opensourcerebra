@@ -195,6 +195,6 @@ int main()
     file.close();
   }
   remove("temp3.txt");
-  system("g++ scheck.cpp && ./a.out");
+  //system("g++ scheck.cpp && ./a.out");
   return 0;
 }

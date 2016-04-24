@@ -174,6 +174,6 @@ int main()
  tfile3.close();
  tfile4.close();
 
- system("g++ missingfilessort.cpp && ./a.out");
+// system("g++ missingfilessort.cpp && ./a.out");
  return 0;
 }

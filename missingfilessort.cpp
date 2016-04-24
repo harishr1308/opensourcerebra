@@ -142,11 +142,11 @@ int main()
  writingfiles(filename3,scfilelist,nooffile3list);
  writingfiles(filename4,sefilelist,nooffile4list);
  
- system("g++ missingfcfilessorting.cpp && ./a.out");
- system("g++ missingfefilessorting.cpp && ./a.out");
- system("g++ missingscfilessorting.cpp && ./a.out");
- system("g++ missingsefilessorting.cpp && ./a.out");
- system("g++ missingtnofilessorting.cpp && ./a.out");
+// system("g++ missingfcfilessorting.cpp && ./a.out");
+// system("g++ missingfefilessorting.cpp && ./a.out");
+// system("g++ missingscfilessorting.cpp && ./a.out");
+// system("g++ missingsefilessorting.cpp && ./a.out");
+// system("g++ missingtnofilessorting.cpp && ./a.out");
 
   return 0;
 }

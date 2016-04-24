@@ -56,8 +56,8 @@ int main()
   cout<<file.good()<<endl;
  }
  tfile.close();
- system("g++ tnoscfilelistsort.cpp && ./a.out");
- system("g++ tnosefilelistsort.cpp && ./a.out");
- system("g++ tnoffilelisting.cpp && ./a.out");
+ //system("g++ tnoscfilelistsort.cpp && ./a.out");
+ //system("g++ tnosefilelistsort.cpp && ./a.out");
+ //system("g++ tnoffilelisting.cpp && ./a.out");
 return 0;
 }
