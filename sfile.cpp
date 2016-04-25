@@ -73,11 +73,11 @@ int main()
           {
             if(c!='\n')
             {
-              tfile<<"</s>\n<s> ";l++;
+              tfile<<".</s>\n<s> ";l++;
             }
             else
             {
-              tfile<<"</s>\n<s> ";l+=2;
+              tfile<<".</s>\n<s> ";l+=2;
             }
           } 
           else if ((b>=48 && b<=57) || (textfile[l-1]>=48 && textfile[l-1]<=57))
@@ -87,11 +87,11 @@ int main()
           }
           else if (b=='\n')
           {
-            tfile<<"</s>\n<s> ";l++;
+            tfile<<".</s>\n<s> ";l++;
           }
           else
           {
-            tfile<<"</s>\n<s> ";
+            tfile<<".</s>\n<s> ";
           } 
         }
         else if ((a>=48 && a<=57) && b=='.')
@@ -105,7 +105,7 @@ int main()
                 tfile<<d;
                 if(e=='.')
                 {
-                  tfile<<"</s>\n<s> ";
+                  tfile<<".</s>\n<s> ";
                   l+=4;
                 }
                 else
@@ -115,7 +115,7 @@ int main()
               }
               else if (d=='.')
               {
-                tfile<<"</s>\n<s> ";
+                tfile<<".</s>\n<s> ";
                 l+=3;
               }
               else
@@ -166,7 +166,7 @@ int main()
         {
           tfile<<a;
         }
-        tfile<<"</s>";
+        tfile<<".</s>";
         string tn="s";
         for(int i=4;i<temp.size();i++)
         {
