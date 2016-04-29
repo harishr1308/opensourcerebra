@@ -15,3 +15,6 @@ mkdir html
 cd html
 g++ tnosplit.cpp
 ./a.out
+
+chmod +x model_gen.sh
+./model_gen.sh
