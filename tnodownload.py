@@ -1,6 +1,6 @@
 import requests
 from requests.auth import HTTPBasicAuth
-url = "http://www.dictate.it/bosi/sitetools/LetterManager/tools/getFilesComparison/getLetterData"
+url = "URL"
 usr = 'Username'
 pas = 'Password'
 with open('todownloadtno.txt') as fp:
