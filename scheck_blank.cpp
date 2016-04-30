@@ -81,11 +81,13 @@ int main()
 	     break;
       }      
     }
+    //  <s> .</s>\n
+    //  0123456789
     for(int q=0;q<nooflines;q++)
     {
-      if(lines[q].size()<10)
+      if(lines[q].size()<11)
       {
-        cout<<"encountered <s> </s>"<<endl;
+        cout<<"encountered <s> <./s>"<<endl;
       }
       else
       {

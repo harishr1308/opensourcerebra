@@ -60,7 +60,6 @@ int main()
     string tname;
     fstream tfile;
     tfile.open("temp3.txt",fstream::in|fstream::out|fstream::trunc);
-    tfile<<"<s> ";
     for(;l<length;l++)
     {
     //  cout<<"character : "<<a<<"\t no : "<<l<<endl;
@@ -73,11 +72,11 @@ int main()
           {
             if(c!='\n')
             {
-              tfile<<".</s>\n<s> ";l++;
+              tfile<<"\n";l++;
             }
             else
             {
-              tfile<<".</s>\n<s> ";l+=2;
+              tfile<<"\n";l+=2;
             }
           } 
           else if ((b>=48 && b<=57) || (textfile[l-1]>=48 && textfile[l-1]<=57))
@@ -86,12 +85,16 @@ int main()
           }
           else if (b=='\n')
           {
-            tfile<<".</s>\n<s> ";l++;
+            tfile<<"\n";l++;
           }
           else
           {
-            tfile<<".</s>\n<s> ";
+            tfile<<"\n";
           } 
+        }
+        else if (a==' ')
+        {
+          tfile<<"\n";
         }
         else if ((a>=48 && a<=57) && b=='.')
         {
@@ -104,7 +107,7 @@ int main()
                 tfile<<d;
                 if(e=='.')
                 {
-                  tfile<<".</s>\n<s> ";
+                  tfile<<"\n";
                   l+=4;
                 }
                 else
@@ -114,7 +117,7 @@ int main()
               }
               else if (d=='.')
               {
-                tfile<<".</s>\n<s> ";
+                tfile<<"\n";
                 l+=3;
               }
               else
@@ -126,19 +129,15 @@ int main()
             {
               if(textfile[l-1]!='\n')
               {
-                tfile<<".</s>\n<s> ";
+                tfile<<"\n";
                 l+=2;
               }
               else
               {
-                tfile<<b<<c;
+                tfile<<b<<"\n";
                 l+=2;
               }
             }
-          else if (c=='\n')
-          {
-          	tfile<<".</s>\n<s>";
-          }
           else
           {
             l++;
@@ -146,24 +145,31 @@ int main()
         }
         else if (a=='\n')
         {
-          tfile<<".</s>\n<s> ";
+          tfile<<"\n";
         }
         else if (a=='?' && (b==' ' || b=='\n'))
         {
-          tfile<<"?</s>\n<s> ";
+          tfile<<"?\n";
         }
         else if (a==':' && (b==' ' || b=='\n'))
         {
-          tfile<<":</s>\n<s> ";
+          tfile<<":\n";
         }
         else if (a=='!' && (b==' ' || b=='\n'))
         {
-         tfile<<"!</s>\n<s> "; 
+         tfile<<"!\n"; 
         }
         else
         { 
           //cout<<"not fullstop"<<endl;
-          tfile<<textfile[l];
+          if (a!=' ')
+          {
+            tfile<<textfile[l];
+          }
+          else if (a==' ')
+          {
+            tfile<<"\n";
+          }
         }  
       }   
       if(l>=(length-1))
@@ -173,8 +179,7 @@ int main()
         {
           tfile<<a;
         }
-        tfile<<".</s>";
-        string tn="s";
+        string tn="w";
         for(int i=4;i<temp.size();i++)
         {
           tn+=temp[i];
