@@ -3,7 +3,7 @@ echo "All t files are moved to ../tno"
 
 find ./ -type f -name "w*c.txt" -exec mv {} ./../words/wcorrect \;
 echo "All WordCorrected files are moved to ../words/wcorrect"
-find ./ -type f -name "w*e.txt" -exec mv {} ./../words/Werror \;
+find ./ -type f -name "w*e.txt" -exec mv {} ./../words/werror \;
 echo "All WordError files are moved to ../words/werror"
 
 find ./ -type f -name "file*c.txt" -exec mv {} ./../files/fcorrect \;
