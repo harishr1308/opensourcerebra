@@ -2,6 +2,7 @@ mkdir files
 cd files
 mkdir fcorrect
 mkdir ferror
+mkdir flangcorr
 > compiledfcorrectedfiles.txt
 cd ..
 mkdir sfile
@@ -15,6 +16,8 @@ mkdir words
 cd words
 mkdir wcorrect
 mkdir werror
+mkdir wcorrectcount
+mkdir werrorcount
 > compiledwcorrectedfiles.txt
 > compiledwerrorfiles.txt
 > compiledwcorrectedcount.txt
@@ -37,6 +40,8 @@ g++ tag.cpp
 g++ words.cpp
 ./a.out
 g++ wcheck.cpp
+./a.out
+g++ wcount.cpp
 ./a.out
 g++ sfile.cpp
 ./a.out
@@ -74,6 +79,8 @@ g++ missingtnofilessorting.cpp
 ./a.out
 chmod +x MoveTNo.sh
 ./MoveTNo.sh
+
+python filecheck.py
 cd ..
 #chmod +x model_gen.sh
 #./model_gen.sh
