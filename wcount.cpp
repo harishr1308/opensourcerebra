@@ -4,6 +4,7 @@
 #include <cstdio>
 #include <vector>
 #include <cstring>
+#include <algorithm>
 #include <cstdlib>
 #include <dirent.h>
 using namespace std;
@@ -67,36 +68,38 @@ int main()
     {
       if(a=='\n')
       {
-        line+="\n";
         lines.push_back(line);nooflines++;
         line="";
-      }
-      else if(a==' ')
-      {
-        cout<<"extra space encountered"<<endl;
       }
       else 
       {
        line+=textfile[l];
       }
-      if(l>length)
-      {
-       break;
-      }      
     }
-    for(int q=0;q<nooflines;q++)
-    {
-      if(lines[q].size()<2)
+    sort(lines.begin(),lines.end());
+    for(int q=0;q<nooflines;)
+    { 
+      int counting=0;
+      string newline = lines[q];
+      while(newline.compare(lines[q]) == 0 && q<nooflines)
       {
-        cout<<"encountered extra new line"<<endl;
+        counting++;
+        //lines.erase(lines.begin()+q+1);
+        cout<<"encountered duplicate line : "<<lines[q]<<endl;
+        q++;
       }
-      else
-      {
-        tfile<<lines[q];
-      }
+      
+      char buffer[50];
+      snprintf(buffer, sizeof(buffer), "%d", counting);
+      string str(buffer);
+      newline+="$$"+str;
+      tfile<<newline;
+      cout<<"line modified "<<newline<<endl;
+      if (q>=nooflines)
+        break;
     }
     tfile.close();
-    remove(temp.c_str());
+    temp.insert(temp.find_last_of(".")-1,"count");
     if(rename("temp4.txt",temp.c_str()))
       cout<<"File is renamed as : "<<tname<<endl;
     else

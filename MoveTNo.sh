@@ -1,6 +1,11 @@
 find ./ -type f -name "T*.txt" -exec mv {} ./../tno \;
 echo "All t files are moved to ../tno"
 
+find ./ -type f -name "w*ccount.txt" -exec mv {} ./../words/wcorrectcount \;
+echo "All WordCorrected files are moved to ../words/wcorrectcount"
+find ./ -type f -name "w*ecount.txt" -exec mv {} ./../words/werrorcount \;
+echo "All WordError files are moved to ../words/werrorcount"
+
 find ./ -type f -name "w*c.txt" -exec mv {} ./../words/wcorrect \;
 echo "All WordCorrected files are moved to ../words/wcorrect"
 find ./ -type f -name "w*e.txt" -exec mv {} ./../words/werror \;
