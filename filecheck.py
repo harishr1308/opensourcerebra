@@ -17,7 +17,7 @@ for file in files:
 	filename = replace_last(filename,'e','l')
 	text = f1.read()
 	print filename
-	text.encode('utf-8')
+	text.encode('utf8','ignore')
 	#text.encode('\"', 'ignore')
 	matches = tool.check(text)
 	print len(matches)
