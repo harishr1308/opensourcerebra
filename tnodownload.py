@@ -1,8 +1,8 @@
 import requests
 from requests.auth import HTTPBasicAuth
-url = "http://www.dictate.it/bosi/sitetools/LetterManager/tools/getFilesComparison/getLetterData"
-usr = 'Cerebra_NM'
-pas = 'C3r$br@555'
+url = "URL"
+usr = 'Username'
+pas = 'Password'
 with open('todownloadtno.txt') as fp:
  for line in fp:
   name = line.rstrip('\n')

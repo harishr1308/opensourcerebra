@@ -1,3 +1,4 @@
+cd ..
 mkdir files
 cd files
 mkdir fcorrect
@@ -24,11 +25,10 @@ mkdir werrorcount
 > compiledwerrorcount.txt
 
 cd ..
-mkdir html
-cd html
+cd opensourcerebra	
 g++ tnosplit.cpp #if your file contains multiple transcripts in it
 ./a.out
-#python tnodownload.py #if you need to download transcripts uncomment this line and make changes to the URL, username and password accordingly
+python tnodownload.py #if you need to download transcripts uncomment this line and make changes to the URL, username and password accordingly
 g++ tnolisting.cpp
 ./a.out
 g++ tnolistsort.cpp
@@ -40,8 +40,6 @@ g++ tag.cpp
 g++ words.cpp
 ./a.out
 g++ wcheck.cpp
-./a.out
-g++ wcount.cpp
 ./a.out
 g++ sfile.cpp
 ./a.out
@@ -81,6 +79,7 @@ chmod +x MoveTNo.sh
 ./MoveTNo.sh
 
 python filecheck.py
+python wcount.py
 cd ..
 #chmod +x model_gen.sh
 #./model_gen.sh
