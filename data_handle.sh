@@ -3,7 +3,7 @@ mkdir files
 cd files
 mkdir fcorrect
 mkdir ferror
-mkdir flangcorr
+mkdir flangerr
 > compiledfcorrectedfiles.txt
 cd ..
 mkdir sfile
