@@ -15,9 +15,9 @@ with open('todownloadtno.txt') as fp:
 		if count>50:
 			key_value = {'instr':name}
 			r = requests.post(url, auth=HTTPBasicAuth(usr, pas), data=key_value)
-			fp = open(str(filecount)+".txt","w")
-			fp.write(r.text.encode('utf8','ignore'))
-			fp.close()
+			wp = open(str(filecount)+".txt","w")
+			wp.write(r.text.encode('utf8','ignore'))
+			wp.close()
 			count = 0
 			print filecount,"is created"
 			filecount+=1
