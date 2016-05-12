@@ -1,8 +1,8 @@
 import requests
 from requests.auth import HTTPBasicAuth
-url = 'http://www.dictate.it/bosi/sitetools/LetterManager/tools/getLetterData'
-usr = "Cerebra_NM"
-pas = 'C3r$br@555'
+url = ''
+usr = ""
+pas = ''
 filecount = 1;
 filenocount = 0;
 name = ""
@@ -25,14 +25,14 @@ with open('todownloadtno.txt') as fp:
 		else:
 			count+=1
 			name+=','
-	if name!="":
-		key_value = {'instr':name}
-			r = requests.post(url, auth=HTTPBasicAuth(usr, pas), data=key_value)
-			fp = open(str(filecount)+".txt","w")
-			fp.write(r.text.encode('utf8','ignore'))
-			fp.close()
-			count = 0
-			print filecount,"is created"
-			filecount+=1
-			name = ""
+if name!="":
+	key_value = {'instr':name}
+	r = requests.post(url, auth=HTTPBasicAuth(usr, pas), data=key_value)
+	wp = open(str(filecount)+".txt","w")
+	wp.write(r.text.encode('utf8','ignore'))
+	wp.close()
+	count = 0
+	print filecount,"is created"
+	filecount+=1
+	name = ""
  # print r.text
