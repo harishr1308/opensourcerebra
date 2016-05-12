@@ -65,16 +65,16 @@ g++ tnofefilelistsort.cpp
 ./a.out
 g++ missingfilessort.cpp
 ./a.out
-g++ missingfcfilessorting.cpp
-./a.out
-g++ missingfefilessorting.cpp
-./a.out
-g++ missingscfilessorting.cpp
-./a.out
-g++ missingsefilessorting.cpp
-./a.out
-g++ missingtnofilessorting.cpp
-./a.out
+# g++ missingfcfilessorting.cpp
+# ./a.out
+# g++ missingfefilessorting.cpp
+# ./a.out
+# g++ missingscfilessorting.cpp
+# ./a.out
+# g++ missingsefilessorting.cpp
+# ./a.out
+# g++ missingtnofilessorting.cpp
+# ./a.out
 chmod +x MoveTNo.sh
 ./MoveTNo.sh
 
