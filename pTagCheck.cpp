@@ -1,10 +1,10 @@
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //YEAR: 2015-16
-//AUTHOR: Cerebra Interns
-//PROGRAM: Checks for <p> & </p> tags around "originalcontent" & "content" data
+//AUTHORS: Cerebra Interns
+//PROGRAM: Adds the <p> & </p> tags around "originalcontent" & "content" data
 //NOTES: 
-//1.Make a directory called "tno" and put all your T[tno].txt files there!
-//2.Send the tnolist.txt file as a commandline argument to this program. (Does not internally read the filenames because flexibility in feeding filenames to the program is necessary).
+//1. Make a directory called "tno" and put all your T[tno].txt files there!
+//2. Send the tnolist.txt file as a commandline argument to this program. (Does not internally read the filenames because flexibility in feeding filenames to the program is necessary).
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 #include <iostream>
 #include <fstream>
@@ -16,11 +16,9 @@ static const size_t npos = -1;
 //Handles all kinds of line endings (\n, \r, \r\n):
 istream& safeGetline(istream& is, string& t){
     t.clear();
-
     // The characters in the stream are read one-by-one using a std::streambuf.
     // That is faster than reading them one-by-one using the std::istream.
     // Code that uses streambuf this way must be guarded by a sentry object.
-
     istream::sentry se(is, true);
     streambuf* sb = is.rdbuf();
 
