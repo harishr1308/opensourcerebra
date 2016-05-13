@@ -26,13 +26,16 @@ mkdir werrorcount
 
 cd ..
 cd opensourcerebra	
-g++ tnosplit.cpp #if your file contains multiple transcripts in it
-./a.out
-python tnodownload.py #if you need to download transcripts uncomment this line and make changes to the URL, username and password accordingly
-g++ tnolisting.cpp
-./a.out
-g++ tnolistsort.cpp
-./a.out
+ulimit unlimited
+# python tnodownload.py #if you need to download transcripts uncomment this line and make changes to the URL, username and password accordingly
+ g++ tnosplit.cpp #if your file contains multiple transcripts in it
+ ./a.out
+
+
+# g++ tnolisting.cpp
+# ./a.out
+# g++ tnolistsort.cpp
+# ./a.out
 g++ tnoaudio.cpp
 ./a.out
 g++ tag.cpp
@@ -49,21 +52,26 @@ g++ scheck_blank.cpp
 ./a.out
 g++ scheck_space.cpp
 ./a.out
-g++ tnosfilelisting.cpp
+# g++ tnosfilelisting.cpp
+# ./a.out
+# g++ tnoscfilelistsort.cpp
+# ./a.out
+# g++ tnosefilelistsort.cpp
+# ./a.out
+# g++ tnoffilelisting.cpp
+# ./a.out
+g++ filelisting.cpp
 ./a.out
-g++ tnoscfilelistsort.cpp
+g++ tnofilessort.cpp # new file where we pass only the name of the file and it sorts it using the new header file created
 ./a.out
-g++ tnosefilelistsort.cpp
-./a.out
-g++ tnoffilelisting.cpp
-./a.out
+
 g++ findingmissingfiles.cpp
 ./a.out
-g++ tnofcfilelistsort.cpp
-./a.out
-g++ tnofefilelistsort.cpp
-./a.out
-g++ missingfilessort.cpp
+# g++ tnofcfilelistsort.cpp
+# ./a.out
+# g++ tnofefilelistsort.cpp
+# ./a.out
+g++ missingfilessort.cpp # new file where we pass only the name of the file and it sorts it using the new header file created
 ./a.out
 # g++ missingfcfilessorting.cpp
 # ./a.out
@@ -75,11 +83,17 @@ g++ missingfilessort.cpp
 # ./a.out
 # g++ missingtnofilessorting.cpp
 # ./a.out
+
+
+
 chmod +x MoveTNo.sh
 ./MoveTNo.sh
 
 python filecheck.py
 python wcount.py
+
 cd ..
+
+
 #chmod +x model_gen.sh
 #./model_gen.sh
