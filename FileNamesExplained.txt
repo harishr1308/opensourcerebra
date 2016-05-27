@@ -1,0 +1,161 @@
+Download tnos
+input - todownloadtno.txt
+python tnodownload.py
+output 1.txt , 2.txt 
+
+1.txt 2.txt etc contains 50 Tno's raw data clubbed into one
+then we split it
+input - 1.txt
+output many files named after their tnos like this input - T1223334444.txt
+
+
+T1223334444.txt contains raw data of T1223334444 only
+fileT1223334444.txt contains readable cleaned data of the respective tno
+	filesuffix c - content -- most correct file
+	filesuffix e - originalcontent  -- it has a few errors
+	filesuffix m - mtlevel data to be taken from google form
+	
+
+Now we take each word and put them into a separate line
+input - fileT1223334444c/e/m.txt
+wT1223334444c.txt  - contains each word of the readable text	--applied on content
+			e 													--applied on original content
+			m 													--applied on mtlevel
+
+
+now we stag the entire thing
+input - fileT1223334444c/e/m.txt
+sT1223334444c.txt  - contains scentences in each line enclosed in S-tags <s> </s> --applied on content
+			e 																		applied on originalcontent
+			m 																		applied on mtlevel
+
+
+
+now we have run the language-tool we downloaded
+input - fileT1223334444e.txt
+Corrects it to the best of its capabilities
+Can introduce more errors or the possibility of not fixing some errors
+output - fileT1223334444le.txt 			--applied on originalcontent
+
+
+input - fileT1223334444m.txt
+Corrects it to the best of its capabilities
+Can introduce more errors or the possibility of not fixing some errors
+output - fileT1223334444lm.txt 			--applied on mtlevel
+
+now we run the stag again on all of the new files
+input - fileT1223334444le/lm.txt
+sT1223334444le.txt  - contains S-tag enclosed scentences  --applied on language tool corrected originalcontent
+			lm 											  --applied on langauge tool corrected mtlevel
+
+
+now we run the word programs on the newly created files
+input - fileT1223334444le/lm.txt
+wT1223334444le.txt  - contains words in each line		  --applied on language tool corrected originalcontent
+			lm 											  --applied on langauge tool corrected mtlevel
+
+
+
+now the readable cleaned files we have -- we run pos tagger on everything
+fileT1223334444 c  			-- posT1223334444   c
+				e  			--					e
+				m  			--					m
+				le 			--					le
+				lm 			--					lm
+
+these output files will contain only pos tags no words at all
+for eg
+Harish is riding a bike        							---- readable file
+Harish_Noun is_article riding_verb a_article bike_noun  ---- output of POS tagger       --- file named as --- wordandposT1223334444   stands for word and pos
+Noun article verb article noun 							---- Pos tagged file 			--- file named as --- posT1223334444
+Noun is verb a noun 									---- pos tagged with stop words --- file named as --- stopandposT1223334444	stands for stopword and pos
+
+now we run the word operations on everything
+input files are:          output files are:
+fileT1223334444 le   		wT1223334444   le
+				lm    					   lm
+wordandpos                		wwordandpos
+pos                   			wpos
+stoppos                     	wstopandpos			
+
+
+Next we compute count for everything
+input : all word files
+output :
+
+wcountT1223334444	c
+					e
+					m
+					le
+					lm
+
+wcountwordandposT1223334444	c
+							e
+							m
+							le
+							lm
+
+wcountposT1223334444 		c
+							e
+							m
+							le
+							lm
+
+
+wcountstopandposT1223334444	c
+							e
+							m
+							le
+							lm
+
+
+Next we compute the errors we have had
+basic comparison schemes will be like this
+as c is the most correct file
+all files are compared with c
+and all forms of c are compared with its respective base c
+
+and every file has another prefix of error
+errorwcountT1223334444	c
+						e
+						m
+						le
+						lm
+
+errorwcountwordandposT1223334444	c
+									e
+									m
+									le
+									lm
+
+errorwcountposT1223334444 	c
+							e
+							m
+							le
+							lm
+
+
+errorwcountstopandposT1223334444	c
+									e
+									m
+									le
+									lm
+
+
+
+
+then we feed everything to irstlm and get ngrams for everything
+and then the suggestion code takes place
+
+each pos tag - we create a new file for it and move every word we've encountered to that
+say "Bike" its a noun
+we create a file called noun.txt
+and move "Bike" to it
+
+
+we do this and have yet another count
+so we can trace back and see what all words gets used the most
+
+
+
+

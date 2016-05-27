@@ -15,7 +15,7 @@ def langcheck(input_path, output_path, replace_what, replace_with):
 		f1=open(file, 'r')  
 		filename = os.path.basename(file)
 		outputpath = output_path
-		filename = replace_last(filename,'e','l')
+		filename = replace_last(filename,replace_what,replace_with)
 		text = f1.read()
 		# print filename
 		text.encode('utf8','ignore')
@@ -35,5 +35,5 @@ def langcheck(input_path, output_path, replace_what, replace_with):
 		print filename , "is created"
 		f1.close();
 
-langcheck("./../files/ferror/*.txt","./../files/flangerr/","e","l")
+langcheck("./../files/ferror/*.txt","./../files/flangerr/","e","le")
 

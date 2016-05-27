@@ -1,4 +1,4 @@
-import glob   
+import glob
 import os
 from collections import Counter
 def replace_last(source_string, replace_what, replace_with):
@@ -35,5 +35,5 @@ def count(input_path,output_path,replace_with,replace_what):
 			f2.close();
 			f1.close();
 
-count('./../words/werror/*.txt','./../words/werrorcount/','e','ecount')
-count('./../words/wcorrect/*.txt','./../words/wcorrectcount/','c','ccount')
+count('./../words/werror/*.txt','./../words/werrorcount/','w','wcount')
+count('./../words/wcorrect/*.txt','./../words/wcorrectcount/','w','wcount')

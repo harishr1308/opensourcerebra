@@ -1,0 +1,222 @@
+<table  onmouseover="window.status = 'Transcription reference no. T5057130620';" onmouseout="window.status = '';" border=1 cellspacing=0 cellpadding=0 width="800px" style="font-family: Arial, sans; font-size: 12px;">
+<tr><td width="200px">Client:</td><td width="600px">St. Mary's Hospital - Paediatrics Allergy</td></tr>
+<tr><td>tuid:</td><td><div style="cursor:hand;color:red" onClick="javascript:location.href='https://www.dictate.it/dictateit2/clients/H0009PALL/documents/T5057130620/play'" onmouseover="window.status = 'Transcription reference no. T5057130620';" onmouseout="window.status = '';">T5057130620</div></td></tr>
+<tr><td>datesubmit:</td><td>2016/01/29 17:42:55.574889 GMT</td></tr>
+<tr><td>dateComplete:</td><td>2016/02/01 08:27:34.458997 GMT</td></tr>
+<tr><td>dictator:</td><td>Claudia_Gore</td></tr>
+<tr><td>patient ID:</td><td>30101512</td></tr>
+
+<tr><td>Clinic Date:</td><td>29/01/2016</td></tr>
+<tr><td>Subject:</td><td></td></tr>
+<tr><td>Dear line:</td><td>Mr and Mrs ##Patient_Surname##</td></tr>
+<tr><td>DOB:</td><td>10/11/2000</td></tr>
+<tr><td>Clinic Reference:</td><td></td></tr>
+<tr><td>Notes to secretary:</td><td>Letter to Parents</td></tr>
+<tr><td>Notes to dictator:</td><td></td></tr>
+<tr><td>Recipient Address:</td><td>Parents of<BR>##Patient_Firstname## ##Patient_Surname##<BR>##Patient_Complete_Address_Vertical##</td></tr>
+<tr><td>Footer block:</td><td>CC:<BR>##GP_TitleName##<BR>##GP_Complete_Address_Vertical##</td></tr>
+<tr><td>Error Flag:</td><td>0</td></tr>
+ 
+<tr><td>opTranscribe:</td><td>CTMT55</td></tr>
+<tr><td>opProof1:</td><td>CTPR22</td></tr>
+<tr><td>opProof2:</td><td> </td></tr>
+<tr><td>originalcontent:</td><td><P>I was disappointed not to see ##PATIENT_FIRSTNAME## in the clinic today.&nbsp; This means an appointment slot was not used which could have benefited another patient.</P>
+
+<P>Looking at his test from last year, it appears he is allergic to cashew and pistachio and I understand he did not want to go through with the other challenges.</P>
+
+<P>I hope that he remains well and I have discharged him from follow up.&nbsp; If he needs future allergy investigations, his GP will need to re-refer him, from the age of 16 this needs to be to an Adult Allergy Service.</P></td></tr>
+<tr><td>content:</td><td><p>I was disappointed not to see ##PATIENT_FIRSTNAME## in the clinic today.&nbsp; This means an appointment slot was not used which could have benefited another patient.</p>
+
+<p>Looking at his test from last year, it appears he is allergic to cashew and pistachio and I understand he did not want to go through with the other challenges.</p>
+
+<p>I hope that he remains well and I have discharged him from follow up.&nbsp; If he needs future allergy investigations, his GP will need to re-refer him, from the age of 16 this needs to be to an Adult Allergy Service.</p></td></tr></table><BR><table  onmouseover="window.status = 'Transcription reference no. T4356543090';" onmouseout="window.status = '';" border=1 cellspacing=0 cellpadding=0 width="800px" style="font-family: Arial, sans; font-size: 12px;">
+<tr><td width="200px">Client:</td><td width="600px">St. Mary's Hospital - Paediatrics Allergy</td></tr>
+<tr><td>tuid:</td><td><div style="cursor:hand;color:red" onClick="javascript:location.href='https://www.dictate.it/dictateit2/clients/H0009PALL/documents/T4356543090/play'" onmouseover="window.status = 'Transcription reference no. T4356543090';" onmouseout="window.status = '';">T4356543090</div></td></tr>
+<tr><td>datesubmit:</td><td>2016/02/08 18:26:55.239046 GMT</td></tr>
+<tr><td>dateComplete:</td><td>2016/02/09 14:55:46.333955 GMT</td></tr>
+<tr><td>dictator:</td><td>Robert_Boyle</td></tr>
+<tr><td>patient ID:</td><td>SM598448</td></tr>
+
+<tr><td>Clinic Date:</td><td>08/02/2016</td></tr>
+<tr><td>Subject:</td><td></td></tr>
+<tr><td>Dear line:</td><td>##GP_TitleName##</td></tr>
+<tr><td>DOB:</td><td>21/07/2003</td></tr>
+<tr><td>Clinic Reference:</td><td></td></tr>
+<tr><td>Notes to secretary:</td><td>GP Letter</td></tr>
+<tr><td>Notes to dictator:</td><td></td></tr>
+<tr><td>Recipient Address:</td><td>##GP_TitleName##<BR>##GP_Complete_Address_Vertical##</td></tr>
+<tr><td>Footer block:</td><td>CC:<BR>Parents of<BR>##Patient_Firstname## ##Patient_Surname##<BR>##Patient_Complete_Address_Vertical##</td></tr>
+<tr><td>Error Flag:</td><td>0</td></tr>
+ 
+<tr><td>opTranscribe:</td><td>CTMT44</td></tr>
+<tr><td>opProof1:</td><td>CTPR22</td></tr>
+<tr><td>opProof2:</td><td> </td></tr>
+<tr><td>originalcontent:</td><td><P>It is a pleasure to see ##PATIENT_FIRSTNAME## who I reviewed with his mother today.&nbsp; They have successfully managed to introduce brazil nut, hazelnut, almond, cashew nut, walnut and pistachio nuts into his diet.&nbsp; Unfortunately, he has developed positive skin prick test to pine nut.&nbsp; On testing today, we have put him forward for supervised pine nut challenge to clarify whether he has a allergy to this.&nbsp; His asthma remained well controlled on inhaled Budesonide 200 mcg twice daily and as he has not had a serious asthma attack from the past year, lung function is&nbsp;normal today.&nbsp; We have reviewed the EpiPen technique.&nbsp; We will update you with his pine nut challenge outcome and plan to see him again for review in this clinic in a year's time.<BR></P></td></tr>
+<tr><td>content:</td><td><p>It was a pleasure to see ##PATIENT_FIRSTNAME## for review with his mother today.&nbsp;</p>
+
+<p>They have successfully managed to introduce brazil nut, hazelnut, almond, cashew nut, walnut and pistachio nuts into his diet.&nbsp; Unfortunately, he has developed a positive skin prick test to pine nut on testing today; we have put him forward for a supervised pine nut challenge to clarify whether he has an allergy to this.&nbsp;&nbsp; We have reviewed the EpiPen technique.&nbsp;</p>
+
+<p>His asthma has remained well controlled on inhaled Budesonide 200 mcg twice daily and as he has not had a serious asthma attack for the past year; lung function is&nbsp;normal today.&nbsp;</p>
+
+
+<p>We will update you with his pine nut challenge outcome and plan to see him again for review in this clinic in a year's time.</p></td></tr></table><BR><table  onmouseover="window.status = 'Transcription reference no. T9915689654';" onmouseout="window.status = '';" border=1 cellspacing=0 cellpadding=0 width="800px" style="font-family: Arial, sans; font-size: 12px;">
+<tr><td width="200px">Client:</td><td width="600px">St. Mary's Hospital - Paediatrics Allergy</td></tr>
+<tr><td>tuid:</td><td><div style="cursor:hand;color:red" onClick="javascript:location.href='https://www.dictate.it/dictateit2/clients/H0009PALL/documents/T9915689654/play'" onmouseover="window.status = 'Transcription reference no. T9915689654';" onmouseout="window.status = '';">T9915689654</div></td></tr>
+<tr><td>datesubmit:</td><td>2015/12/17 12:14:56.458605 GMT</td></tr>
+<tr><td>dateComplete:</td><td>2015/12/20 12:31:15.681046 GMT</td></tr>
+<tr><td>dictator:</td><td>Ian_Pollock</td></tr>
+<tr><td>patient ID:</td><td>CC559974</td></tr>
+
+<tr><td>Clinic Date:</td><td>17/12/2015</td></tr>
+<tr><td>Subject:</td><td></td></tr>
+<tr><td>Dear line:</td><td>##GP_TitleName##</td></tr>
+<tr><td>DOB:</td><td>27/01/2014</td></tr>
+<tr><td>Clinic Reference:</td><td></td></tr>
+<tr><td>Notes to secretary:</td><td>GP Letter<BR></td></tr>
+<tr><td>Notes to dictator:</td><td></td></tr>
+<tr><td>Recipient Address:</td><td>##GP_TitleName##<BR>##GP_Complete_Address_Vertical##</td></tr>
+<tr><td>Footer block:</td><td>CC:<BR>Parents of<BR>##Patient_Firstname## ##Patient_Surname##<BR>##Patient_Complete_Address_Vertical##</td></tr>
+<tr><td>Error Flag:</td><td>0</td></tr>
+ 
+<tr><td>opTranscribe:</td><td>CTMT48</td></tr>
+<tr><td>opProof1:</td><td>CTPR22</td></tr>
+<tr><td>opProof2:</td><td> </td></tr>
+<tr><td>originalcontent:</td><td><P><STRONG>Diagnoses/Problems:</STRONG></P>
+<P>1.&nbsp; Egg allergy.</P>
+<P>2.&nbsp; Intercurrent papulovesicular rash - ?chickenpox.</P>
+
+<P><STRONG>Comments in&nbsp;Management:</STRONG></P>
+<P>##PATIENT_FIRSTNAME## is 23 months of age and was seen for the first time in clinic with both parents and younger sister.</P>
+
+<P>Around 10 months of age, he ate a small amount of lightly boiled egg for the first time.&nbsp; He developed generalised urticaria and vomiting.&nbsp; For this, he was seen at Chelsea and Westminster Hospital and given Piriton and an EpiPen.&nbsp; On further enquiry, he had had no systemic reactions apart from vomiting.</P>
+
+<P>Subsequently, he has eaten baked egg products with no problem.</P>
+
+<P>Approximately four days ago, he developed a rash which parents think may have followed from eating a certain food products that may have contained food colouring.&nbsp; However, the rash has persisted.</P>
+
+<P>He is otherwise well and eats a generally normal diet.</P>
+
+<P>He has no history of eczema or respiratory symptoms.&nbsp; His bowel habit is regular.</P>
+
+<P>He was 34 weeks pre-term at Queen Charlotte's Hospital where he developed ?necrotising enterocolitis.&nbsp; He underwent a laparotomy at two weeks of age at Chelsea and Westminster Hospital but had no gut resection.</P>
+
+<P>He is on no medication.&nbsp; </P>
+
+<P>He has been immunised but not had MMR due to concerns about his egg allergy.</P>
+
+<P>I note the mother has a history of&nbsp;hay fever, father is well.&nbsp; His&nbsp;nine month&nbsp;old sister&nbsp;has what sound to be transient gastro-oesophageal reflux.</P>
+
+<P>On examination, he is&nbsp;very active and well.&nbsp; He has a papulovesicular&nbsp;eruption particularly on his limbs with relative central sparing.&nbsp; </P>
+
+<P><STRONG>Plan:</STRONG></P>
+<P>The history is very suggestive of egg allergy.&nbsp; For the time being, he should avoid raw egg but should continue to eat&nbsp;baked egg products&nbsp;and other food.&nbsp; I have&nbsp;arranged&nbsp;for skin prick testing to be performed when he&nbsp;has recovered from this.&nbsp; Following this, we will a make&nbsp;renewed allergy plan.</P></td></tr>
+<tr><td>content:</td><td><p><strong>Diagnoses/Problems:</strong></p>
+<p>1.&nbsp; Egg allergy.</p>
+<p>2.&nbsp; Intercurrent papulovesicular rash - ?chickenpox.</p>
+
+<p><strong>Comments in&nbsp;Management:</strong></p>
+<p>##PATIENT_FIRSTNAME## is 23 months of age and was seen for the first time in clinic with both parents and younger sister.</p>
+
+<p>Around 10 months of age, he ate a small amount of lightly boiled egg for the first time.&nbsp; He developed generalised urticaria and vomiting.&nbsp; For this, he was seen at Chelsea and Westminster Hospital and given Piriton and an EpiPen.&nbsp; On further enquiry, he had had no systemic reactions apart from vomiting.</p>
+
+<p>Subsequently, he has eaten baked egg products with no problem.</p>
+
+<p>Approximately four days ago, he developed a rash which parents think may have followed from eating a certain food products that may have contained food colouring.&nbsp; However, the rash has persisted.</p>
+
+<p>He is otherwise well and eats a generally normal diet.</p>
+
+<p>He has no history of eczema or respiratory symptoms.&nbsp; His bowel habit is regular.</p>
+
+<p>He was 34 weeks pre-term at Queen Charlotte's Hospital where he developed ?necrotising enterocolitis.&nbsp; He underwent a laparotomy at two weeks of age at Chelsea and Westminster Hospital but had no gut resection.</p>
+
+<p>He is on no medication.&nbsp;</p>
+
+<p>He has been immunised but not had MMR due to concerns about his egg allergy.</p>
+
+<p>I note the mother has a history of&nbsp;hay fever, father is well.&nbsp; His&nbsp;nine month&nbsp;old sister&nbsp;has what sound to be transient gastro-oesophageal reflux.</p>
+
+<p>On examination, he is&nbsp;very active and well.&nbsp; He has a papulovesicular&nbsp;eruption particularly on his limbs with relative central sparing.&nbsp;</p>
+
+<p><strong>Plan:</strong></p>
+<p>The history is very suggestive of egg allergy.&nbsp; For the time being, he should avoid raw egg but should continue to eat&nbsp;baked egg products&nbsp;and other food.&nbsp; I have&nbsp;arranged&nbsp;for skin prick testing to be performed when he&nbsp;has recovered from this.&nbsp; Following this, we will a make&nbsp;renewed allergy plan.</p></td></tr></table><BR><table  onmouseover="window.status = 'Transcription reference no. T1602030758';" onmouseout="window.status = '';" border=1 cellspacing=0 cellpadding=0 width="800px" style="font-family: Arial, sans; font-size: 12px;">
+<tr><td width="200px">Client:</td><td width="600px">St. Mary's Hospital - Paediatrics Allergy</td></tr>
+<tr><td>tuid:</td><td><div style="cursor:hand;color:red" onClick="javascript:location.href='https://www.dictate.it/dictateit2/clients/H0009PALL/documents/T1602030758/play'" onmouseover="window.status = 'Transcription reference no. T1602030758';" onmouseout="window.status = '';">T1602030758</div></td></tr>
+<tr><td>datesubmit:</td><td>2015/12/17 17:45:26.630310 GMT</td></tr>
+<tr><td>dateComplete:</td><td>2015/12/21 12:40:21.180548 GMT</td></tr>
+<tr><td>dictator:</td><td>Robert_Boyle</td></tr>
+<tr><td>patient ID:</td><td>30069112</td></tr>
+
+<tr><td>Clinic Date:</td><td>17/12/2015</td></tr>
+<tr><td>Subject:</td><td></td></tr>
+<tr><td>Dear line:</td><td>Parviz</td></tr>
+<tr><td>DOB:</td><td>17/08/2000</td></tr>
+<tr><td>Clinic Reference:</td><td></td></tr>
+<tr><td>Notes to secretary:</td><td>Non-GP Letter<BR>Original letter: T7039776290<BR>Audio split; L2 starts at 01:29</td></tr>
+<tr><td>Notes to dictator:</td><td>ALERT!  FILES NOT SPLIT IN ACCORDANCE WITH DICTATE.IT RECOMMENDATIONS.  BY USING THE EOL BUTTON ON BACK OF DICTAPHONE TO SPLIT AUDIO FILES YOU WILL ENSURE ONE FILE FOR EACH LETTER AND HELP MINIMISE RISK OF ERROR.</td></tr>
+<tr><td>Recipient Address:</td><td>Dr Parviz Habibi<BR>Sleep Consultant <BR>St Mary's Hospital<BR><BR></td></tr>
+<tr><td>Footer block:</td><td>CC:<BR>Parents of<BR>##Patient_Firstname## ##Patient_Surname##<BR>##Patient_Complete_Address_Vertical##</td></tr>
+<tr><td>Error Flag:</td><td>0</td></tr>
+ 
+<tr><td>opTranscribe:</td><td>CTMT48</td></tr>
+<tr><td>opProof1:</td><td>CTPR22</td></tr>
+<tr><td>opProof2:</td><td> </td></tr>
+<tr><td>originalcontent:</td><td><P>I would be grateful&nbsp;if you be&nbsp;able to&nbsp;see ##PATIENT_FIRSTNAME## for consideration of sleep study.&nbsp; He has an ongoing issue with not being to sleep properly and although he does have some seasonal allergic rhinitis and some perennial rhinitis, I do not think that these&nbsp;are&nbsp;the sole cause of his quite severe sleeping issues.&nbsp; I would be&nbsp;most grateful for your expert assessment.</P></td></tr>
+<tr><td>content:</td><td><p>I would be grateful&nbsp;if you be&nbsp;able to&nbsp;see ##PATIENT_FIRSTNAME## for consideration of sleep study.&nbsp; He has an ongoing issue with not being able to sleep properly and although he does have some seasonal allergic rhinitis and some perennial rhinitis, I do not think that these&nbsp;are&nbsp;the sole cause of his quite severe sleeping issues.&nbsp; I would be&nbsp;most grateful for your expert assessment.</p></td></tr></table><BR><table  onmouseover="window.status = 'Transcription reference no. T7039776290';" onmouseout="window.status = '';" border=1 cellspacing=0 cellpadding=0 width="800px" style="font-family: Arial, sans; font-size: 12px;">
+<tr><td width="200px">Client:</td><td width="600px">St. Mary's Hospital - Paediatrics Allergy</td></tr>
+<tr><td>tuid:</td><td><div style="cursor:hand;color:red" onClick="javascript:location.href='https://www.dictate.it/dictateit2/clients/H0009PALL/documents/T7039776290/play'" onmouseover="window.status = 'Transcription reference no. T7039776290';" onmouseout="window.status = '';">T7039776290</div></td></tr>
+<tr><td>datesubmit:</td><td>2015/12/17 17:45:26.630310 GMT</td></tr>
+<tr><td>dateComplete:</td><td>2015/12/21 12:42:5.963838 GMT</td></tr>
+<tr><td>dictator:</td><td>Robert_Boyle</td></tr>
+<tr><td>patient ID:</td><td>30069112</td></tr>
+
+<tr><td>Clinic Date:</td><td>17/12/2015</td></tr>
+<tr><td>Subject:</td><td></td></tr>
+<tr><td>Dear line:</td><td>##GP_TitleName##</td></tr>
+<tr><td>DOB:</td><td>17/08/2000</td></tr>
+<tr><td>Clinic Reference:</td><td></td></tr>
+<tr><td>Notes to secretary:</td><td>GP Letter<BR>Original letter: T7039776290<BR>Audio split; L1 starts at 00:00</td></tr>
+<tr><td>Notes to dictator:</td><td>ALERT!  FILES NOT SPLIT IN ACCORDANCE WITH DICTATE.IT RECOMMENDATIONS.  BY USING THE EOL BUTTON ON BACK OF DICTAPHONE TO SPLIT AUDIO FILES YOU WILL ENSURE ONE FILE FOR EACH LETTER AND HELP MINIMISE RISK OF ERROR.</td></tr>
+<tr><td>Recipient Address:</td><td>##GP_TitleName##<BR>##GP_Complete_Address_Vertical## </td></tr>
+<tr><td>Footer block:</td><td>CC:<BR>Parents of<BR>##Patient_Firstname## ##Patient_Surname##<BR>##Patient_Complete_Address_Vertical##</td></tr>
+<tr><td>Error Flag:</td><td>0</td></tr>
+ 
+<tr><td>opTranscribe:</td><td>CTMT48</td></tr>
+<tr><td>opProof1:</td><td>CTPR22</td></tr>
+<tr><td>opProof2:</td><td> </td></tr>
+<tr><td>originalcontent:</td><td><P><STRONG>Problems:</STRONG></P>
+<P>1.&nbsp; Difficulty sleeping.</P>
+<P>2.&nbsp; Seasonal allergic rhinitis with grass pollen sensitisation.</P>
+<P>3.&nbsp; Perennial rhinitis symptoms of unknown cause.</P>
+<P>4.&nbsp; Wheat intolerance.</P>
+
+<P>It was a pleasure to see ##PATIENT_FIRSTNAME## for review today.&nbsp; He has had a course of Grazax grass pollen immunotherapy&nbsp;which is not impacting greatly on his symptoms since his most troublesome symptoms are all year round rhinitis and most troublesome sleeping issue.&nbsp; Despite this, he has not been sensitised to any perennial allergens.&nbsp; He does have some evidence of rhinitis on examination today but nevertheless good nasal flow.&nbsp; Overall, I do not think the continuing Grazax is going to very beneficial for ##PATIENT_FIRSTNAME## and the most important thing is for him&nbsp;to see our Sleep Service for consideration of a polysomnography to delineate what the sleeping issue is.&nbsp;&nbsp;In the meantime, non-sedating antihistamines and nasal corticosteroid sprays are still appropriate for&nbsp;rhinitis if they have beneficial effects for ##PATIENT_FIRSTNAME##.&nbsp; I have made a back-up appointment in the Allergy Clinic in a year's time&nbsp;and I am&nbsp;hopeful that we have a more definitive advice following the consultation with Dr Habibi, the Paediatric Sleep Specialist.</P></td></tr>
+<tr><td>content:</td><td><P><STRONG>Problems:</STRONG></P>
+<P>1.&nbsp; Difficulty sleeping.</P>
+<P>2.&nbsp; Seasonal allergic rhinitis with grass pollen sensitisation.</P>
+<P>3.&nbsp; Perennial rhinitis symptoms of unknown cause.</P>
+<P>4.&nbsp; Wheat intolerance.</P>
+
+<P>It was a pleasure to see ##PATIENT_FIRSTNAME## for review today.&nbsp; He has had a course of Grazax grass pollen immunotherapy&nbsp;which is not impacting greatly on his symptoms since his most troublesome symptoms are all year round rhinitis and most troublesome sleeping issue.&nbsp; Despite this, he has not been sensitised to any perennial allergens.&nbsp; He does have some evidence of rhinitis on examination today but nevertheless good nasal flow.&nbsp; Overall, I do not think the continuing Grazax is going to very beneficial for ##PATIENT_FIRSTNAME## and the most important thing is for him&nbsp;to see our Sleep Service for consideration of a polysomnography to delineate what the sleeping issue is.&nbsp;&nbsp;In the meantime, non-sedating antihistamines and nasal corticosteroid sprays are still appropriate for&nbsp;rhinitis if they have beneficial effects for ##PATIENT_FIRSTNAME##.&nbsp; I have made a back-up appointment in the Allergy Clinic in a year's time&nbsp;and I am&nbsp;hopeful that we have a more definitive advice following the consultation with Dr Habibi, the Paediatric Sleep Specialist.</P></td></tr></table><BR><table  onmouseover="window.status = 'Transcription reference no. T1301582970';" onmouseout="window.status = '';" border=1 cellspacing=0 cellpadding=0 width="800px" style="font-family: Arial, sans; font-size: 12px;">
+<tr><td width="200px">Client:</td><td width="600px">St. Mary's Hospital - Paediatrics Allergy</td></tr>
+<tr><td>tuid:</td><td><div style="cursor:hand;color:red" onClick="javascript:location.href='https://www.dictate.it/dictateit2/clients/H0009PALL/documents/T1301582970/play'" onmouseover="window.status = 'Transcription reference no. T1301582970';" onmouseout="window.status = '';">T1301582970</div></td></tr>
+<tr><td>datesubmit:</td><td>2015/12/17 17:45:26.394601 GMT</td></tr>
+<tr><td>dateComplete:</td><td>2015/12/21 06:39:49.715077 GMT</td></tr>
+<tr><td>dictator:</td><td>Robert_Boyle</td></tr>
+<tr><td>patient ID:</td><td>3317980H</td></tr>
+
+<tr><td>Clinic Date:</td><td>17/12/2015</td></tr>
+<tr><td>Subject:</td><td></td></tr>
+<tr><td>Dear line:</td><td>##GP_TitleName##</td></tr>
+<tr><td>DOB:</td><td>05/09/1998</td></tr>
+<tr><td>Clinic Reference:</td><td></td></tr>
+<tr><td>Notes to secretary:</td><td>GP Letter</td></tr>
+<tr><td>Notes to dictator:</td><td></td></tr>
+<tr><td>Recipient Address:</td><td>##GP_TitleName##<BR>##GP_Complete_Address_Vertical## </td></tr>
+<tr><td>Footer block:</td><td>CC:<BR>Parents of<BR>##Patient_Firstname## ##Patient_Surname##<BR>##Patient_Complete_Address_Vertical##</td></tr>
+<tr><td>Error Flag:</td><td>0</td></tr>
+ 
+<tr><td>opTranscribe:</td><td>CTMT48</td></tr>
+<tr><td>opProof1:</td><td>CTPR22</td></tr>
+<tr><td>opProof2:</td><td> </td></tr>
+<tr><td>originalcontent:</td><td><P>##PATIENT_FIRSTNAME## had a good response to her Grazax immunotherapy so we are going&nbsp;to proceed with Year 2 of treatment in January.&nbsp; I will see her again for review in this clinic in a year's time.</P></td></tr>
+<tr><td>content:</td><td><p>##PATIENT_FIRSTNAME## had a good response to her Grazax immunotherapy so we are going&nbsp;to proceed with Year 2 of treatment in January.&nbsp; I will see her again for review in this clinic in a year's time.</p></td></tr></table><BR>total: 6 <B>
