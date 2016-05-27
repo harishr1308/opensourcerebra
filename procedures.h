@@ -885,205 +885,204 @@ void putsfiletags(string filenamingconvention, string outputfilenamingconvention
 	string tempfilename = "temp3.txt";
 	for(int p=0;p<files.size();p++)
 	{
-	string temp = files[p];
-	file.open(temp.c_str(),fstream::in|fstream::out);
-	cout<<temp<<" is open"<<endl;
-	if (file.good())
-	{ 
-		l=0;
-		string textfile = returnfilecontents(file);
-		string tname;
-		fstream tfile;
-		tfile.open(tempfilename.c_str(),fstream::in|fstream::out|fstream::trunc);
-		tfile<<"<s> ";
-		for(;l<textfile.length();l++)
-		{
-		if (l<(textfile.length()-1))
-		{
-		if(conditionchecking(textfile,l,".")==true)
-		{
-		if(conditionchecking(textfile,l,". ")==true)
-		{
-		if(conditionchecking(textfile,l,". \n")==false)
-		{
-			tfile<<".</s>\n<s> ";
-			//l++;
-			if(checkincrement(l,textfile.length(),1)!=2)
-			{
-				l++;
-			}
-		}
-		else
-		{
-			tfile<<".</s>\n<s> ";
-			//l+=2;
-			if(checkincrement(l,textfile.length(),2)!=2)
-			{
-				l+=2;
-			}
-		}
-		} 
-		else if (conditionchecking(textfile,l,".$")==true || conditionchecking(textfile,l-1,"$.")==true)
-		{
-		tfile<<".";
-		}
-		else if (conditionchecking(textfile,l,".\n")==true)
-		{
-		tfile<<".</s>\n<s> ";
-		//l++;
-		if(checkincrement(l,textfile.length(),1)!=2)
-		{
-		l++;
-		}
-		}
-		else
-		{
-		tfile<<".</s>\n<s> ";
-		} 
-		}
-		else if (conditionchecking(textfile,l,"$.")==true)
-		{
-		tfile<<a;
-		if(conditionchecking(textfile,l,"$.$")==true)
-		{
-		tfile<<b<<c;
-		if (conditionchecking(textfile,l,"$.$$")==true)
-		{
-		tfile<<d;
-		if(conditionchecking(textfile,l,"$.$$.")==true)
-		{
-		tfile<<".</s>\n<s> ";
-		if(checkincrement(l,textfile.length(),skip("$.$$.")-1)!=2)
-		{
-		l+=skip("$.$$.")-1;
-		}
-		// l+=skip("$.$$.")-1;
-		}
-		else
-		{
-		// l+=skip("$.$$")-1;
-		if(checkincrement(l,textfile.length(),skip("$.$$")-1)!=2)
-		{
-		l+=skip("$.$$")-1;
-		}
-		}
-		}
-		else if (conditionchecking(textfile,l,"$.$.")==true)
-		{
-		tfile<<".</s>\n<s> ";
-		// l+=skip("$.$.")-1;
-		if(checkincrement(l,textfile.length(),skip("$.$.")-1)!=2)
-		{
-		l+=skip("$.$.")-1;
-		} 
-		}
-		else
-		{
-		// l+=skip("$.$")-1;
-		if(checkincrement(l,textfile.length(),skip("$.$")-1)!=2)
-		{
-		l+=skip("$.$")-1;
-		}
-
-		}
-		}
-		else if (conditionchecking(textfile,l,"$. ")==true)
-		{
-		if(conditionchecking(textfile,l-1,"\n$. ")==true)
-		{
-		tfile<<".</s>\n<s> ";
-		// l+=skip("$. ")-1;
-		if(checkincrement(l,textfile.length(),skip("$. ")-1)!=2)
-		{
-		l+=skip("$. ")-1;
-		}
-
-		}
-		else
-		{
-		tfile<<b<<c;
-		// l+=skip("$. ")-1;
-		if(checkincrement(l,textfile.length(),skip("$. ")-1)!=2)
-		{
-		l+=skip("$. ")-1;
-		}
-
-		}
-		}
-		else if (conditionchecking(textfile,l,"$.\n")==true)
-		{
-		tfile<<".</s>\n<s>";
-		}
-		else
-		{
-		// l++;
-		if(checkincrement(l,textfile.length(),1)!=2)
-		{
-		l++;
-		}
-
-		}
-		}
-		else if (conditionchecking(textfile,l,"\n")==true)
-		{
-		tfile<<".</s>\n<s> ";
-		}
-		else if (conditionchecking(textfile,l,"? ")==true || conditionchecking(textfile,l,"?\n")==true)
-		{
-		tfile<<"?</s>\n<s> ";
-		}
-		else if (conditionchecking(textfile,l,": ")==true ||conditionchecking(textfile,l,":\n")==true)
-		{
-		tfile<<":</s>\n<s> ";
-		}
-		else if (conditionchecking(textfile,l,"! ")==true ||conditionchecking(textfile,l,"!\n")==true)
-		{
-		tfile<<"!</s>\n<s> "; 
-		}
-		else
+		string temp = files[p];
+		file.open(temp.c_str(),fstream::in|fstream::out);
+		cout<<temp<<" is open"<<endl;
+		if (file.good())
 		{ 
-		//cout<<"not fullstop"<<endl;
-		if(l<textfile.length()-1)
-		tfile<<textfile[l];
-		}  
-		}   
-		if(l==(textfile.length()-1))
-		{
-		//cout<<"last char"<<endl;
-		if (conditionchecking(textfile,l,".")==false && conditionchecking(textfile,l," ")==false && conditionchecking(textfile,l,"\n")==false)
-		{
-		tfile<<a;
-		}
-		tfile<<".</s>";
-		string tn="s";
-		tn+=GetTnoAndSuffixFromString(temp);
-		cout<<"This is your file which gets created : "<<tn<<endl;
-		cout<<"This is what gets returned from the function : "<<GetTnoAndSuffixFromString(temp)<<endl;
-		tname=tn;
-		tn="";
-		filerename(tfile,tempfilename,tname);
-		break;
-		}
-		if(l>(textfile.length()-1))
-		{
-		//cout<<"last char"<<endl;
-		tfile<<".</s>";
-		string tn="s";
-		tn+=GetTnoAndSuffixFromString(temp);
-		cout<<"This is your file which gets created : "<<tn<<endl;
-		cout<<"This is what gets returned from the function : "<<GetTnoAndSuffixFromString(temp)<<endl;
-		tname=tn;
-		tn="";
-		filerename(tfile,tempfilename,tname);
-		break;
-		}
-		}
-		cout<<endl;
-		textfile="";
+			l=0;
+			string textfile = returnfilecontents(file);
+			string tname;
+			fstream tfile;
+			tfile.open(tempfilename.c_str(),fstream::in|fstream::out|fstream::trunc);
+			tfile<<"<s> ";
+			for(;l<textfile.length();l++)
+			{
+				if (l<(textfile.length()-1))
+				{
+					if(conditionchecking(textfile,l,".")==true)
+					{
+						if(conditionchecking(textfile,l,". ")==true)
+						{
+							if(conditionchecking(textfile,l,". \n")==false)
+							{
+								tfile<<".</s>\n<s> ";
+								//l++;
+								if(checkincrement(l,textfile.length(),1)!=2)
+								{
+									l+=skip(".");
+									// else break;
+								}
+							}
+							else
+							{
+								tfile<<".</s>\n<s> ";
+								//l+=2;
+								if(checkincrement(l,textfile.length(),2)!=2)
+								{
+									l+=skip(". ");
+								}
+							}
+						} 
+						else if (conditionchecking(textfile,l,".$")==true || conditionchecking(textfile,l-1,"$.")==true)
+						{
+							tfile<<".";
+						}
+						else if (conditionchecking(textfile,l,".\n")==true)
+						{
+							tfile<<".</s>\n<s> ";
+							//l++;
+							if(checkincrement(l,textfile.length(),1)!=2)
+							{
+								l+=skip(".");
+							}
+						}
+						else
+						{
+							tfile<<".</s>\n<s> ";
+						} 
+					}
+					else if (conditionchecking(textfile,l,"$.")==true)
+					{
+						tfile<<a;
+						if(conditionchecking(textfile,l,"$.$")==true)
+						{
+							tfile<<b<<c;
+							if (conditionchecking(textfile,l,"$.$$")==true)
+							{
+								tfile<<d;
+								if(conditionchecking(textfile,l,"$.$$.")==true)
+								{
+									tfile<<".</s>\n<s> ";
+									if(checkincrement(l,textfile.length(),skip("$.$$.")-1)!=2)
+									{
+										l+=skip("$.$$.")-1;
+									}
+									// l+=skip("$.$$.")-1;
+								}
+								else
+								{
+									// l+=skip("$.$$")-1;
+									if(checkincrement(l,textfile.length(),skip("$.$$")-1)!=2)
+									{
+										l+=skip("$.$$")-1;
+									}
+								}
+							}
+							else if (conditionchecking(textfile,l,"$.$.")==true)
+							{
+								tfile<<".</s>\n<s> ";
+								// l+=skip("$.$.")-1;
+								if(checkincrement(l,textfile.length(),skip("$.$.")-1)!=2)
+								{
+									l+=skip("$.$.")-1;
+								} 
+							}
+							else		
+							{
+								// l+=skip("$.$")-1;
+								if(checkincrement(l,textfile.length(),skip("$.$")-1)!=2)
+								{	
+									l+=skip("$.$")-1;
+								}
+							}
+						}
+						else if (conditionchecking(textfile,l,"$. ")==true)
+						{
+							if(conditionchecking(textfile,l-1,"\n$. ")==true)
+							{
+								tfile<<".</s>\n<s> ";
+								// l+=skip("$. ")-1;
+								if(checkincrement(l,textfile.length(),skip("$. ")-1)!=2)
+								{
+									l+=skip("$. ")-1;
+								}								
+							}
+							else
+							{
+								tfile<<b<<c;	
+								// l+=skip("$. ")-1;
+								if(checkincrement(l,textfile.length(),skip("$. ")-1)!=2)
+								{
+									l+=skip("$. ")-1;
+								}	
+							}
+						}
+						else if (conditionchecking(textfile,l,"$.\n")==true)
+						{
+							tfile<<".</s>\n<s>";
+						}
+						else
+						{
+							// l++;
+							if(checkincrement(l,textfile.length(),1)!=2)
+							{
+								l++;
+							}
+						}
+					}
+					else if (conditionchecking(textfile,l,"\n")==true)
+					{
+						tfile<<".</s>\n<s> ";
+					}	
+					else if (conditionchecking(textfile,l,"? ")==true || conditionchecking(textfile,l,"?\n")==true)
+					{
+						tfile<<"?</s>\n<s> ";
+					}
+					else if (conditionchecking(textfile,l,": ")==true ||conditionchecking(textfile,l,":\n")==true)
+					{
+						tfile<<":</s>\n<s> ";
+					}
+					else if (conditionchecking(textfile,l,"! ")==true ||conditionchecking(textfile,l,"!\n")==true)
+					{
+						tfile<<"!</s>\n<s> "; 
+					}
+					else	
+					{ 
+						//cout<<"not fullstop"<<endl;
+						if(l<textfile.length()-1)
+						{
+							tfile<<textfile[l];
+						}
+					}		  
+				}		   
+				if(l==(textfile.length()-1))
+				{
+					//cout<<"last char"<<endl;
+					if (conditionchecking(textfile,l,".")==false && conditionchecking(textfile,l," ")==false && conditionchecking(textfile,l,"\n")==false)
+					{
+						tfile<<a;
+					}
+					tfile<<".</s>";
+					string tn="s";
+					tn+=GetTnoAndSuffixFromString(temp);
+					cout<<"This is your file which gets created : "<<tn<<endl;
+					cout<<"This is what gets returned from the function : "<<GetTnoAndSuffixFromString(temp)<<endl;
+					tname=tn;
+					tn="";
+					filerename(tfile,tempfilename,tname);
+					break;
+				}
+				if(l>(textfile.length()-1))
+				{
+					//cout<<"last char"<<endl;
+					tfile<<".</s>";
+					string tn="s";
+					tn+=GetTnoAndSuffixFromString(temp);
+					cout<<"This is your file which gets created : "<<tn<<endl;
+					cout<<"This is what gets returned from the function : "<<GetTnoAndSuffixFromString(temp)<<endl;
+					tname=tn;
+					tn="";
+					filerename(tfile,tempfilename,tname);
+					break;
+				}
+			}
+			cout<<endl;
+			textfile="";
 		}
 		else
 		{
-		cout<<"End of file reached for some reason"<<endl;
+			cout<<"End of file reached for some reason"<<endl;
 		}
 		file.close();
 	}
