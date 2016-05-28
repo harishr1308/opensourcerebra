@@ -877,6 +877,55 @@ void sfilecheck_space(string outputfilenamingconvention)
   remove(tempfilename.c_str());
 }
 
+void sfileclosecondition(string &textfile,int &l,fstream &tfile, string &temp, string &tempfilename)
+{
+	cout<<"sfileclosecondition : "<<l<<" : "<<textfile.length()<<endl;
+	string tname;
+	if(l==(textfile.length()-1))
+	{
+		//cout<<"last char"<<endl;
+		if (conditionchecking(textfile,l,".")==false && conditionchecking(textfile,l," ")==false && conditionchecking(textfile,l,"\n")==false)
+		{
+			tfile<<a;
+		}
+		tfile<<".</s>";
+		string tn="s";
+		tn+=GetTnoAndSuffixFromString(temp);
+		cout<<"This is your file which gets created : "<<tn<<endl;
+		cout<<"This is what gets returned from the function : "<<GetTnoAndSuffixFromString(temp)<<endl;
+		tname=tn;
+		tn="";
+		filerename(tfile,tempfilename,tname);
+	}
+	if(l>(textfile.length()-1))
+	{
+		cout<<"l exceeded"<<endl;
+		tfile<<".</s>";
+		string tn="s";
+		tn+=GetTnoAndSuffixFromString(temp);
+		cout<<"This is your file which gets created : "<<tn<<endl;
+		cout<<"This is what gets returned from the function : "<<GetTnoAndSuffixFromString(temp)<<endl;
+		tname=tn;
+		tn="";
+		filerename(tfile,tempfilename,tname);
+	}
+}
+
+bool sfileexceedclosecondition(string &textfile,int &l,fstream &tfile, string &temp, string &tempfilename,int incrementvalue)
+{
+	cout<<incrementvalue<<" : "<<checkincrement(l,textfile.length(),incrementvalue)<<endl;
+	if(checkincrement(l,textfile.length(),incrementvalue)==0)
+	{
+		l+=incrementvalue;
+		return false;
+	}
+	else
+	{
+		sfileclosecondition(textfile,l,tfile,temp,tempfilename);
+		return true;
+	}
+}
+
 void putsfiletags(string filenamingconvention, string outputfilenamingconvention)
 {
 	vector<string> files;
@@ -892,7 +941,7 @@ void putsfiletags(string filenamingconvention, string outputfilenamingconvention
 		{ 
 			l=0;
 			string textfile = returnfilecontents(file);
-			string tname;
+			// string tname;
 			fstream tfile;
 			tfile.open(tempfilename.c_str(),fstream::in|fstream::out|fstream::trunc);
 			tfile<<"<s> ";
@@ -908,20 +957,27 @@ void putsfiletags(string filenamingconvention, string outputfilenamingconvention
 							{
 								tfile<<".</s>\n<s> ";
 								//l++;
-								if(checkincrement(l,textfile.length(),1)!=2)
-								{
-									l+=skip(".");
-									// else break;
-								}
+								// if(checkincrement(l,textfile.length(),1)!=2)
+								// {
+								// 	l+=skip(".");
+								// 	// else break;
+								// }
+								// else
+								// {
+								// 	sfileclosecondition(textfile,l,tfile,temp,tempfilename);
+								// }
+								if(sfileexceedclosecondition(textfile,l,tfile,temp,tempfilename,int(skip(".")))==true)	break;
+
 							}
 							else
 							{
 								tfile<<".</s>\n<s> ";
 								//l+=2;
-								if(checkincrement(l,textfile.length(),2)!=2)
-								{
-									l+=skip(". ");
-								}
+								// if(checkincrement(l,textfile.length(),2)!=2)
+								// {
+								// 	l+=skip(". ");
+								// }
+								if(sfileexceedclosecondition(textfile,l,tfile,temp,tempfilename,int(skip(". ")))==true)	break;
 							}
 						} 
 						else if (conditionchecking(textfile,l,".$")==true || conditionchecking(textfile,l-1,"$.")==true)
@@ -932,10 +988,16 @@ void putsfiletags(string filenamingconvention, string outputfilenamingconvention
 						{
 							tfile<<".</s>\n<s> ";
 							//l++;
-							if(checkincrement(l,textfile.length(),1)!=2)
-							{
-								l+=skip(".");
-							}
+							// if(checkincrement(l,textfile.length(),1)!=2)
+							// {
+							// 	l+=skip(".");
+							// }
+							// else
+							// {
+							// 	sfileclosecondition(textfile,l,tfile,temp,tempfilename);
+							// }					
+							if(sfileexceedclosecondition(textfile,l,tfile,temp,tempfilename,int(skip(".")))==true)
+								break;
 						}
 						else
 						{
@@ -945,46 +1007,57 @@ void putsfiletags(string filenamingconvention, string outputfilenamingconvention
 					else if (conditionchecking(textfile,l,"$.")==true)
 					{
 						tfile<<a;
+						cout<<a;
 						if(conditionchecking(textfile,l,"$.$")==true)
 						{
 							tfile<<b<<c;
+							cout<<b<<c;
 							if (conditionchecking(textfile,l,"$.$$")==true)
 							{
 								tfile<<d;
+								cout<<d;
 								if(conditionchecking(textfile,l,"$.$$.")==true)
 								{
 									tfile<<".</s>\n<s> ";
-									if(checkincrement(l,textfile.length(),skip("$.$$.")-1)!=2)
-									{
-										l+=skip("$.$$.")-1;
-									}
+									// if(checkincrement(l,textfile.length(),skip("$.$$.")-1)!=2)
+									// {
+									// 	l+=skip("$.$$.")-1;
+									// }
 									// l+=skip("$.$$.")-1;
+									if(sfileexceedclosecondition(textfile,l,tfile,temp,tempfilename,int(skip("$.$$.")-1))==true)
+										break;
 								}
 								else
 								{
 									// l+=skip("$.$$")-1;
-									if(checkincrement(l,textfile.length(),skip("$.$$")-1)!=2)
-									{
-										l+=skip("$.$$")-1;
-									}
+									// if(checkincrement(l,textfile.length(),skip("$.$$")-1)!=2)
+									// {
+									// 	l+=skip("$.$$")-1;
+									// }
+									if(sfileexceedclosecondition(textfile,l,tfile,temp,tempfilename,int(skip("$.$$")-1))==true)
+										break;
 								}
 							}
 							else if (conditionchecking(textfile,l,"$.$.")==true)
 							{
 								tfile<<".</s>\n<s> ";
 								// l+=skip("$.$.")-1;
-								if(checkincrement(l,textfile.length(),skip("$.$.")-1)!=2)
-								{
-									l+=skip("$.$.")-1;
-								} 
+								// if(checkincrement(l,textfile.length(),skip("$.$.")-1)!=2)
+								// {
+								// 	l+=skip("$.$.")-1;
+								// } 
+								if(sfileexceedclosecondition(textfile,l,tfile,temp,tempfilename,int(skip("$.$.")-1))==true)
+									break;
 							}
 							else		
 							{
 								// l+=skip("$.$")-1;
-								if(checkincrement(l,textfile.length(),skip("$.$")-1)!=2)
-								{	
-									l+=skip("$.$")-1;
-								}
+								// if(checkincrement(l,textfile.length(),skip("$.$")-1)!=2)
+								// {	
+								// 	l+=skip("$.$")-1;
+								// }
+								if(sfileexceedclosecondition(textfile,l,tfile,temp,tempfilename,int(skip("$.$")-1))==true)
+									break;
 							}
 						}
 						else if (conditionchecking(textfile,l,"$. ")==true)
@@ -993,19 +1066,24 @@ void putsfiletags(string filenamingconvention, string outputfilenamingconvention
 							{
 								tfile<<".</s>\n<s> ";
 								// l+=skip("$. ")-1;
-								if(checkincrement(l,textfile.length(),skip("$. ")-1)!=2)
-								{
-									l+=skip("$. ")-1;
-								}								
+								// if(checkincrement(l,textfile.length(),skip("$. ")-1)!=2)
+								// {
+								// 	l+=skip("$. ")-1;
+								// }
+								if(sfileexceedclosecondition(textfile,l,tfile,temp,tempfilename,int(skip("$. ")-1))==true)
+									break;
 							}
 							else
 							{
-								tfile<<b<<c;	
+								tfile<<b<<c;
+								cout<<b<<c;	
 								// l+=skip("$. ")-1;
-								if(checkincrement(l,textfile.length(),skip("$. ")-1)!=2)
-								{
-									l+=skip("$. ")-1;
-								}	
+								// if(checkincrement(l,textfile.length(),skip("$. ")-1)!=2)
+								// {
+								// 	l+=skip("$. ")-1;
+								// }	
+								if(sfileexceedclosecondition(textfile,l,tfile,temp,tempfilename,int(skip("$. ")-1))==true)
+									break;
 							}
 						}
 						else if (conditionchecking(textfile,l,"$.\n")==true)
@@ -1015,10 +1093,12 @@ void putsfiletags(string filenamingconvention, string outputfilenamingconvention
 						else
 						{
 							// l++;
-							if(checkincrement(l,textfile.length(),1)!=2)
-							{
-								l++;
-							}
+							// if(checkincrement(l,textfile.length(),1)!=2)
+							// {
+							// 	l++;
+							// }
+							if(sfileexceedclosecondition(textfile,l,tfile,temp,tempfilename,int(skip("#")))==true)
+								break;
 						}
 					}
 					else if (conditionchecking(textfile,l,"\n")==true)
@@ -1043,41 +1123,83 @@ void putsfiletags(string filenamingconvention, string outputfilenamingconvention
 						if(l<textfile.length()-1)
 						{
 							tfile<<textfile[l];
+							cout<<textfile[l];
+						}
+						else
+						{
+							// if(l==(textfile.length()-1))
+							// {
+							// 	//cout<<"last char"<<endl;
+							// 	if (conditionchecking(textfile,l,".")==false && conditionchecking(textfile,l," ")==false && conditionchecking(textfile,l,"\n")==false)
+							// 	{
+							// 		tfile<<a;
+							// 	}
+							// 	tfile<<".</s>";
+							// 	string tn="s";
+							// 	tn+=GetTnoAndSuffixFromString(temp);
+							// 	cout<<"This is your file which gets created : "<<tn<<endl;
+							// 	cout<<"This is what gets returned from the function : "<<GetTnoAndSuffixFromString(temp)<<endl;
+							// 	tname=tn;
+							// 	tn="";
+							// 	filerename(tfile,tempfilename,tname);
+							// 	break;
+							// }
+							// if(l>(textfile.length()-1))
+							// {
+							// 	//cout<<"last char"<<endl;
+							// 	tfile<<".</s>";
+							// 	string tn="s";
+							// 	tn+=GetTnoAndSuffixFromString(temp);
+							// 	cout<<"This is your file which gets created : "<<tn<<endl;
+							// 	cout<<"This is what gets returned from the function : "<<GetTnoAndSuffixFromString(temp)<<endl;
+							// 	tname=tn;
+							// 	tn="";
+							// 	filerename(tfile,tempfilename,tname);
+							// 	break;
+							// }
+							sfileclosecondition(textfile,l,tfile,temp,tempfilename);
+							break;
 						}
 					}		  
-				}		   
-				if(l==(textfile.length()-1))
-				{
-					//cout<<"last char"<<endl;
-					if (conditionchecking(textfile,l,".")==false && conditionchecking(textfile,l," ")==false && conditionchecking(textfile,l,"\n")==false)
-					{
-						tfile<<a;
-					}
-					tfile<<".</s>";
-					string tn="s";
-					tn+=GetTnoAndSuffixFromString(temp);
-					cout<<"This is your file which gets created : "<<tn<<endl;
-					cout<<"This is what gets returned from the function : "<<GetTnoAndSuffixFromString(temp)<<endl;
-					tname=tn;
-					tn="";
-					filerename(tfile,tempfilename,tname);
-					break;
-				}
-				if(l>(textfile.length()-1))
-				{
-					//cout<<"last char"<<endl;
-					tfile<<".</s>";
-					string tn="s";
-					tn+=GetTnoAndSuffixFromString(temp);
-					cout<<"This is your file which gets created : "<<tn<<endl;
-					cout<<"This is what gets returned from the function : "<<GetTnoAndSuffixFromString(temp)<<endl;
-					tname=tn;
-					tn="";
-					filerename(tfile,tempfilename,tname);
+				}	
+				else
+				{	   
+					// if(l==(textfile.length()-1))
+					// {
+					// 	//cout<<"last char"<<endl;
+					// 	if (conditionchecking(textfile,l,".")==false && conditionchecking(textfile,l," ")==false && conditionchecking(textfile,l,"\n")==false)
+					// 	{
+					// 		tfile<<a;
+					// 	}
+					// 	tfile<<".</s>";
+					// 	string tn="s";
+					// 	tn+=GetTnoAndSuffixFromString(temp);
+					// 	cout<<"This is your file which gets created : "<<tn<<endl;
+					// 	cout<<"This is what gets returned from the function : "<<GetTnoAndSuffixFromString(temp)<<endl;
+					// 	tname=tn;
+					// 	tn="";
+					// 	filerename(tfile,tempfilename,tname);
+					// 	break;
+					// }
+					// if(l>(textfile.length()-1))
+					// {
+					// 	//cout<<"last char"<<endl;
+					// 	tfile<<".</s>";
+					// 	string tn="s";
+					// 	tn+=GetTnoAndSuffixFromString(temp);
+					// 	cout<<"This is your file which gets created : "<<tn<<endl;
+					// 	cout<<"This is what gets returned from the function : "<<GetTnoAndSuffixFromString(temp)<<endl;
+					// 	tname=tn;
+					// 	tn="";
+					// 	filerename(tfile,tempfilename,tname);
+					// 	break;
+					// }
+					sfileclosecondition(textfile,l,tfile,temp,tempfilename);
 					break;
 				}
 			}
 			cout<<endl;
+			sfileclosecondition(textfile,l,tfile,temp,tempfilename);
 			textfile="";
 		}
 		else
