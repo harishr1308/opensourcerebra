@@ -70,7 +70,6 @@ vector<string> updatevector(fstream &tempfile,int &nooflines)
      sort(temp.begin(),temp.end());
      tempfile.close();
      delete[] buffer;
-     cout<<endl;
      textfile="";
     }
   else
@@ -95,85 +94,38 @@ void missingfile(fstream &temp,vector<string> &vtemp, vector<string> &ftemp)
   }
 }
 
-int main() 
+void missingfileprocedure(string filename, string filename1, string outputfile)
 {
  fstream file;
  fstream file1;
- fstream file2;
- fstream file3;
- fstream file4;
- file.open("tnolist.txt",fstream::in|fstream::out);
- file1.open("tnofcorrectfilelist.txt",fstream::in|fstream::out);
- file2.open("tnoferrorfilelist.txt",fstream::in|fstream::out);
- file3.open("tnoserrorfilelist.txt",fstream::in|fstream::out);
- file4.open("tnoscorrectfilelist.txt",fstream::in|fstream::out);
+ file.open(filename.c_str(),fstream::in|fstream::out);
+ file1.open(filename1.c_str(),fstream::in|fstream::out);
  int nooffilelist=0;
- int nooffile1list=0;
- int nooffile2list=0;
- int nooffile3list=0;
- int nooffile4list=0;
+ int nooffilelist1=0;
  vector<string> filelist;
- vector<string> fcfilelist;
- vector<string> fefilelist;
- vector<string> scfilelist;
- vector<string> sefilelist;
+ vector<string> filelist1;
  fstream tfile;
- fstream tfile1;
- fstream tfile2;
- fstream tfile3;
- fstream tfile4;
- tfile.open("missingtnolist.txt",fstream::in|fstream::out|fstream::trunc);
- tfile1.open("missingtnofcorrectfilelist.txt",fstream::in|fstream::out|fstream::trunc);
- tfile2.open("missingtnoferrorfilelist.txt",fstream::in|fstream::out|fstream::trunc);
- tfile3.open("missingtnoserrorfilelist.txt",fstream::in|fstream::out|fstream::trunc);
- tfile4.open("missingtnoscorrectfilelist.txt",fstream::in|fstream::out|fstream::trunc);
+ //fstream tfile1;
+ tfile.open(outputfile.c_str(),fstream::in|fstream::out|fstream::trunc);
  filelist   = updatevector(file,nooffilelist);
- cout<<"tno list vector updated"<<endl;
- fcfilelist = updatevector(file1,nooffile1list);
- cout<<"fc list vector updated"<<endl;
- fefilelist = updatevector(file2,nooffile2list);
- cout<<"fe list vector updated"<<endl; 
- scfilelist = updatevector(file3,nooffile3list);
- cout<<"sc list vector updated"<<endl;
- sefilelist = updatevector(file4,nooffile4list);
- cout<<"se list vector updated"<<endl;
-
- cout<<"\nMISSING FILES COMPILED !!!"<<endl<<endl;
- missingfile(tfile1,filelist,fcfilelist);
- missingfile(tfile2,filelist,fefilelist);
- missingfile(tfile3,filelist,scfilelist);
- missingfile(tfile4,filelist,sefilelist);
- cout<<"tno missing file updated"<<endl;
-
- missingfile(tfile,fcfilelist,filelist);
- missingfile(tfile2,fcfilelist,fefilelist);
- missingfile(tfile3,fcfilelist,scfilelist);
- missingfile(tfile4,fcfilelist,sefilelist);
- cout<<"fc missing file updated"<<endl;
- 
- missingfile(tfile,fefilelist,filelist);
- missingfile(tfile1,fefilelist,fcfilelist);
- missingfile(tfile3,fefilelist,scfilelist);
- missingfile(tfile4,fefilelist,sefilelist);
- cout<<"fe missing file updated"<<endl;
- 
- missingfile(tfile,scfilelist,filelist);
- missingfile(tfile1,scfilelist,fcfilelist);
- missingfile(tfile2,scfilelist,fefilelist);
- missingfile(tfile4,scfilelist,sefilelist);
- cout<<"sc missing file updated"<<endl;
- 
- missingfile(tfile,sefilelist,filelist);
- missingfile(tfile1,sefilelist,fcfilelist);
- missingfile(tfile2,sefilelist,fefilelist);
- missingfile(tfile3,sefilelist,scfilelist);
- cout<<"se missing file updated"<<endl;
- 
+ cout<<filename<<" list vector updated"<<endl;
+ filelist1 = updatevector(file1,nooffilelist1);
+ cout<<filename1<<" list vector updated"<<endl;
+ missingfile(tfile,filelist,filelist1);
+ cout<<outputfile<<" is created"<<endl;
  tfile.close();
- tfile1.close();
- tfile3.close();
- tfile4.close();
+ file.close();
+ file1.close();
+}
 
-// system("g++ missingfilessort.cpp && ./a.out");
+int main() 
+{
+
+  missingfileprocedure("todownloadtno.txt","tnolist.txt","missingtnolist.txt");
+  missingfileprocedure("tnolist.txt","tnofcorrectfilelist.txt","missingtnofcorrectfilelist.txt");
+  missingfileprocedure("tnolist.txt","tnoferrorfilelist.txt","missingtnoferrorfilelist.txt");
+  missingfileprocedure("tnoferrorfilelist.txt","tnoserrorfilelist.txt","missingtnoserrorfilelist.txt");
+  missingfileprocedure("tnofcorrectfilelist.txt","tnoscorrectfilelist.txt","missingtnoscorrectfilelist.txt");
+
  return 0;
 }
